@@ -6,8 +6,9 @@
 
 body {
     width: 100%;
+    /* màu nền chủ đạo */
     background: rgb(246, 238, 238);
-    height: 4000vh;
+    /* height: 4000vh; */
 }
 
 /* ============= HEADER ================ */
@@ -20,6 +21,7 @@ body {
 }
 
 .navbar-brand {
+    /* logo vàng đen */
     font-size: 36px;
     font-weight: 550;
     color: black;
@@ -144,31 +146,93 @@ body {
 
 /* =============== start FOOTER ===================*/
 .footer {
-    min-height: 46vh;
+    min-height: 80vh;
     background: #202020;
-    padding: 32px 0;
-    position: relative;
-    color: #454445;
+    padding: 32px;
+    color: #676667;
 }
 
-.footer .row .col-sm-3 {
-    max-height: 46vh;
+.footer-container {
+    margin-top: 20px;
 }
 
-.title-ft {
-    color: #fff;
+.footer-logo {
+    color: rgb(246, 238, 238);
+    text-shadow: 0px 1px 1px #ffffff;
+    font-weight: 550;
+    font-size: 32px;
+    span {
+        color: #ffa500;
+    }
 }
 
-.img-ft {
-    width: 90px;
+.footer-para {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 25px 0;
+}
+
+.heading-sm-footer {
+    color: rgb(246, 238, 238);
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin: 15px 0px;
+}
+
+.social-links-footer {
+    margin: 15px 0;
+}
+
+.icon-social-footer {
+    font-size: 20px;
+    padding: 8px;
+    border: 1px solid #478ee8;
+    color: rgb(246, 238, 238);
+    margin: 0 4px 0 0;
+    transition: 0.2s ease-in;
+}
+
+.icon-social-footer:hover {
+    background-color: #477de7;
+    color: #ffa500;
+}
+
+.heading-pages {
+    color: rgb(246, 238, 238);
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+/* dùng để ghi đè lên nav-link */
+.footer-links {
+    font-size: 18px !important;
+    color: #676667 !important;
+    margin: 5px 0 !important;
+}
+
+.footer-links:hover {
+    /* ghi đè hover của navbar */
+    background-color: #202020 !important;
+}
+
+.contact-footer .text-contact {
+    margin: 16px 0px;
+    font-size: 18px;
+}
+
+.contact-icon-footer {
+    font-size: 18px;
+    color: #ffa500;
+    padding: 0px 9px;
+}
+
+.copyright {
+    margin-top: 20px;
+    border-top: 1px solid #676667;
     height: 80px;
 }
-.copyright {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    height: 6vh;
-    background: #181818;
-    color: #454445;
-}
+
 /* =============== end FOOTER =================*/
