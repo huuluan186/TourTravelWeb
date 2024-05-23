@@ -1,5 +1,6 @@
 {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "livePreview.defaultPreviewPath": "/PhamHuuLuan/form/RegisterForm.html"
+    "livePreview.defaultPreviewPath": "/PhamHuuLuan/form/RegisterForm.html",
+    "liveServer.settings.port": 5501
 }

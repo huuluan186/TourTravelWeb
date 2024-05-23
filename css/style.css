@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none !important;
+    text-decoration: none !important;
 }
 
 body {
@@ -130,6 +132,78 @@ body {
 }
 
 /* =================== END HOME SECTION (SLIDE IMAGE)================== */
+
+/* ================== START TOUR PACKAGE  ======================*/
+.background-tour-packages {
+    height: 200vh;
+    width: 100%;
+    background: url('../image/india.png') center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+}
+
+.tour-list {
+    padding: 50px 0;
+}
+
+.main-txt h3 {
+    padding-top: 110px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+
+.packages .card {
+    border-radius: 5px;
+    border: none;
+}
+.packages .card img {
+    border-radius: 5px;
+}
+.packages .card .card-body {
+    background: transparent;
+}
+.packages .card .card-body h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.packages .card .card-body p {
+    font-size: 15px;
+}
+.checked {
+    color: #ffa500;
+}
+.star i {
+    font-size: 12px;
+}
+.packages .card .card-body h6 {
+    font-size: 20px;
+}
+.packages .card .card-body a {
+    padding: 10px;
+    text-decoration: none;
+    background: #ffa500;
+    color: white;
+    border-radius: 5px;
+}
+
+.card .card-img-top {
+    height: 200px;
+}
+
+/* Section Packages End */
+
+/* ================== END TOUR PACKAGE ======================*/
 
 .our-quality {
     min-height: 18vh;
