@@ -9,7 +9,7 @@
 body {
     width: 100%;
     /*màunềnchủđạo*/
-    background: rgb(246, 238, 238);
+    background: #eeeeee;
     /*height: 4000vh;
     */
 }
@@ -93,7 +93,7 @@ body {
 .slider-icon {
     width: 60px;
     height: 60px;
-    background: rgb(246, 238, 238);
+    background: #eeeeee;
     color: rgba(0, 0, 0, 0.7);
     opacity: 1;
     border-radius: 50px;
@@ -262,7 +262,7 @@ body {
 .our-quality {
     min-height: 25vh;
     background: linear-gradient(to right, #478ee8, #468ae8, #4586e8, #4681e8, #477de7);
-    color: #fff;
+    color: #eeeeee;
 }
 
 .our-quality .container .row {
@@ -286,8 +286,8 @@ body {
 }
 
 .footer-logo {
-    color: rgb(246, 238, 238);
-    text-shadow: 0px 1px 1px #ffffff;
+    color: #eeeeee;
+    text-shadow: 0px 1px 1px #EEEEEEEEEEEE;
     font-weight: 550;
     font-size: 32px;
     span {
@@ -302,7 +302,7 @@ body {
 }
 
 .heading-sm-footer {
-    color: rgb(246, 238, 238);
+    color: #eeeeee;
     font-size: 22px;
     letter-spacing: 2px;
     font-weight: 700;
@@ -317,7 +317,7 @@ body {
     font-size: 20px;
     padding: 8px;
     border: 1px solid #478ee8;
-    color: rgb(246, 238, 238);
+    color: #eeeeee;
     margin: 0 4px 0 0;
     transition: 0.2s ease-in;
 }
@@ -328,7 +328,7 @@ body {
 }
 
 .heading-pages {
-    color: rgb(246, 238, 238);
+    color: #eeeeee;
     font-size: 28px;
     letter-spacing: 2px;
     font-weight: 700;
