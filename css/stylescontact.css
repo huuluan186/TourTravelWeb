@@ -73,13 +73,14 @@ body {
     width: 100%;
 }
 .inputBox span {
-    color: #18b7ff;
+    color: #5a70e3;
     margin-top: 10px;
     margin-bottom: 5px;
     font-weight: 500;
 }
 .inputBox input {
     padding: 10px;
+    font-style: italic;
     font-size: 15px;
     outline: none;
     border: 1px solid #333;
@@ -87,6 +88,7 @@ body {
 }
 .inputBox textarea {
     padding: 10px;
+    font-style: italic;
     font-size: 15px;
     outline: none;
     border: 1px solid #333;
@@ -96,6 +98,7 @@ body {
 }
 .inputBox input[type='submit'] {
     background-color: #ce3939;
+    font-style: normal;
     color: #fff;
     border: none;
     font-size: 15px;
