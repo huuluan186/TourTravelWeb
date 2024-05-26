@@ -3,11 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Travel-Tour</title>
-        <link rel="stylesheet" href="../css/styleTour.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <title>BLOG</title>
         <!-- Bootstrap css , js-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -21,7 +17,6 @@
         <link rel="stylesheet" href="../css/style.css" />
         <!-- link css -->
     </head>
-
     <body>
         <!-- navbar bootstrap -->
         <header class="header">
@@ -37,7 +32,7 @@
                                 <a class="nav-link" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Tour</a>
+                                <a class="nav-link" aria-current="page" href="TourList.html">Tour</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Blog</a>
@@ -46,7 +41,7 @@
                                 <a class="nav-link" href="contact.html">Contact us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About me</a>
+                                <a class="nav-link" href="about.html">About me</a>
                             </li>
                         </ul>
                     </div>
@@ -54,101 +49,91 @@
             </nav>
         </header>
         <!-- navbar -->
+
         <!-- banner -->
-        <div class="tour-body">
-            <div class="title-container">
-                <div class="traveltour-page-title-overlay"></div>
-                <div class="title-item">
-                    <h1 class="traveltour-page-title">Tour Classic With Detail 3 Columns</h1>
+        <section class="banner">
+            <div class="container-fluid">
+                <div class="content">
+                    <h1>LIFE IS THE TRIP</h1>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- banner -->
-        <!-- content -->
-        <section class="section-container popular-container">
-            <h2 class="section-header reveal">Lorem Ipsum</h2>
-            <div class="popular-grid">
-                <!-- card -->
-                <a href="#">
-                    <div class="popular-card reveal">
-                        <img src="../image/imgTourList/Dubai.jpg" alt="popular hotel" />
-                        <div class="popular-content">
-                            <div class="popular-card-header">
-                                <h4>dubai</h4>
-                                <h4>$599</h4>
-                            </div>
-                            <p>Burj Khalifa</p>
-                        </div>
-                    </div>
-                </a>
-                <!-- card -->
-                <a href="#">
-                    <div class="popular-card reveal">
-                        <img src="../image/imgTourList/Japan.jpg" alt="popular hotel" />
-                        <div class="popular-content">
-                            <div class="popular-card-header">
-                                <h4>Japan</h4>
-                                <h4>$599</h4>
-                            </div>
-                            <p>Fujikawa</p>
-                        </div>
-                    </div>
-                </a>
-                <!-- card -->
-                <a href="#">
-                    <div class="popular-card reveal">
-                        <img src="../image/imgTourList/India.jpg" alt="popular hotel" />
-                        <div class="popular-content">
-                            <div class="popular-card-header">
-                                <h4>India</h4>
-                                <h4>$599</h4>
-                            </div>
-                            <p>New Delhi</p>
-                        </div>
-                    </div>
-                </a>
-                <!-- card -->
-                <a href="#">
-                    <div class="popular-card reveal">
-                        <img src="../image/imgTourList/VietNam.jpg" alt="popular hotel" />
-                        <div class="popular-content">
-                            <div class="popular-card-header">
-                                <h4>Viet Nam</h4>
-                                <h4>$599</h4>
-                            </div>
-                            <p>Hoi An</p>
-                        </div>
-                    </div>
-                </a>
 
-                <!-- card -->
-                <a href="#">
-                    <div class="popular-card reveal">
-                        <img src="../image/imgTourList/ThaiLand.jpg" alt="popular hotel" />
-                        <div class="popular-content">
-                            <div class="popular-card-header">
-                                <h4>Thai Land</h4>
-                                <h4>$599</h4>
+        <!-- CONTENT -->
+        <section class="content-blog my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 py-3 py-md-0">
+                        <div class="card custom-card">
+                            <img src="../image/article1.jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <a href=""> June 6, 2016 </a>
+                                <h3 style="font-size: 24px; font-weight: 700"><a href="" class="text-dark">Pack wisely before traveling</a></h3>
+                                <div class="blog-content mb-5 mt-3">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm...</div>
+                                <hr />
+                                <div class="d-flex flex-column">
+                                    <span><i class="fa-solid fa-id-card-clip me-2"></i> <span>Jone Smith</span></span>
+                                    <span> <i class="fa-solid fa-folder-minus me-2"></i> <span>Blog, Uncategorized</span></span>
+                                </div>
                             </div>
-                            <p>BangKok</p>
                         </div>
                     </div>
-                </a>
-                <!-- card -->
-                <a href="#">
-                    <div class="popular-card reveal">
-                        <img src="../image/imgTourList/china.jpg" alt="popular hotel" />
-                        <div class="popular-content">
-                            <div class="popular-card-header">
-                                <h4>China</h4>
-                                <h4>$599</h4>
+                    <div class="col-md-4 col-sm-12 py-3 py-md-0">
+                        <div class="card custom-card">
+                            <img src="../image/article2.jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
-                            <p>Suzhou</p>
                         </div>
                     </div>
-                </a>
+                    <div class="col-md-4 col-sm-12 py-3 py-md-0">
+                        <div class="card custom-card">
+                            <img src="../image/article3.jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-md-4 col-sm-12 py-3 py-md-0">
+                        <div class="card custom-card">
+                            <img src="../image/article4.jpeg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <a href=""> June 6, 2016 </a>
+                                <h3 style="font-size: 24px; font-weight: 700"><a href="" class="text-dark">Pack wisely before traveling</a></h3>
+                                <div class="blog-content mb-5 mt-3">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm...</div>
+                                <hr />
+                                <div class="d-flex flex-column">
+                                    <span><i class="fa-solid fa-id-card-clip me-2"></i> <span>Jone Smith</span></span>
+                                    <span> <i class="fa-solid fa-folder-minus me-2"></i> <span>Blog, Uncategorized</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 py-3 py-md-0">
+                        <div class="card custom-card">
+                            <img src="../image/article5.jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 py-3 py-md-0">
+                        <div class="card custom-card">
+                            <img src="../image/article6.jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+        <!-- CONTENT -->
+
         <!-- footer -->
         <footer class="footer">
             <div class="container footer-container">
@@ -207,7 +192,8 @@
             </div>
         </footer>
         <!-- footer -->
+
+        <!-- optional javascript -->
         <script src="../js/javascipt.js"></script>
-        <script src="../js/script.js"></script>
     </body>
 </html>

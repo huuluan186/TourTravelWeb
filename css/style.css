@@ -6,12 +6,18 @@
     text-decoration: none !important;
 }
 
+:root {
+    --bg-color: #eee;
+    --bg-section-color: #477de7;
+    --title-section-color: #ffa500;
+    --color1-heading: #fff;
+    --color-content: #676667;
+}
+
 body {
     width: 100%;
     /*màunềnchủđạo*/
-    background: #eeeeee;
-    /*height: 4000vh;
-    */
+    background: #fff;
 }
 
 /* ============= HEADER ================ */
@@ -21,6 +27,7 @@ body {
     z-index: 999;
     width: 100%;
     position: relative;
+    min-height: 15vh;
 }
 
 .navbar-brand {
@@ -29,31 +36,40 @@ body {
     font-weight: 550;
     color: black;
     text-shadow: 0px 1px 1px black;
-    margin-bottom: 5px;
+    margin: 3px 0;
     span {
-        color: #ffa500;
+        color: var(--title-section-color);
     }
 }
 
 .navbar-toggler span {
-    color: #ffa500;
+    color: var(--title-section-color);
 }
-.navbar-item {
-    margin: 0 30px;
-}
+
 .nav-item .nav-link {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 550;
     color: black;
     letter-spacing: 1px;
-    border-radius: 3px;
     transition: 0.5s ease;
     margin: 0 30px;
 }
 
 .nav-item .nav-link:hover {
-    background: #ffa500;
-    color: white;
+    border-radius: 3px;
+    background: var(--title-section-color);
+}
+
+@media (min-width: 1400px) {
+    .nav-item .nav-link {
+        font-size: 32px;
+        margin: 32px 30px;
+        font-weight: 650;
+    }
+    .navbar-brand {
+        font-size: 45px;
+        font-weight: 650;
+    }
 }
 
 /* ================== END HEADER=================== */
@@ -93,13 +109,13 @@ body {
 .slider-icon {
     width: 60px;
     height: 60px;
-    background: #eeeeee;
+    background: var(--bg-color);
     color: rgba(0, 0, 0, 0.7);
     opacity: 1;
     border-radius: 50px;
 }
 .btn {
-    background-color: #4692e7;
+    background-color: var(--bg-section-color);
     border: none;
 }
 
@@ -136,7 +152,7 @@ body {
 
 /* ================== START TOUR PACKAGE  ======================*/
 .background-tour-packages {
-    min-height: 200vh;
+    min-height: 120vh;
     width: 100%;
     background: url('../image/india.png') center no-repeat;
     background-size: cover;
@@ -161,7 +177,7 @@ body {
     padding-top: 110px;
     padding-bottom: 20px;
     font-weight: 600;
-    color: #ffa500;
+    color: var(--title-section-color);
     font-size: 45px;
 }
 
@@ -188,9 +204,7 @@ body {
 .packages .card .card-body p {
     font-size: 15px;
 }
-.checked {
-    color: #ffa500;
-}
+
 .star i {
     font-size: 12px;
 }
@@ -200,8 +214,8 @@ body {
 .packages .card .card-body a {
     padding: 10px;
     text-decoration: none;
-    background: #ffa500;
-    color: white;
+    background: var(--title-section-color);
+    color: var(---color1-heading);
     border-radius: 5px;
 }
 
@@ -227,10 +241,10 @@ body {
 
 .articles {
     width: 100%;
-    min-height: 60vh;
+    min-height: 30vh;
 
     .container {
-        min-height: 60vh;
+        min-height: 30vh;
         width: 100%;
         margin: 60px auto;
     }
@@ -239,7 +253,7 @@ body {
 .article-title {
     .heading-title {
         font-weight: 600;
-        color: #ffa500;
+        color: var(--title-section-color);
         font-size: 40px;
     }
 
@@ -257,12 +271,25 @@ body {
     margin-top: 30px;
 }
 
-/* ====================== START ARTICLES ============================ */
+.img-container {
+    overflow: hidden;
+}
+
+.img-zoom {
+    transition: all 0.3s ease-in-out;
+    max-width: 100%;
+}
+
+.img-container:hover .img-zoom {
+    transform: scale(1.1);
+}
+
+/* ====================== End ARTICLES ============================ */
 
 .our-quality {
     min-height: 25vh;
     background: linear-gradient(to right, #478ee8, #468ae8, #4586e8, #4681e8, #477de7);
-    color: #eeeeee;
+    color: var(--bg-color);
 }
 
 .our-quality .container .row {
@@ -275,10 +302,10 @@ body {
 
 /* =============== start FOOTER ===================*/
 .footer {
-    min-height: 80vh;
+    min-height: 40vh;
     background: #202020;
     padding: 32px;
-    color: #676667;
+    color: var(--color-content);
 }
 
 .footer-container {
@@ -286,12 +313,12 @@ body {
 }
 
 .footer-logo {
-    color: #eeeeee;
-    text-shadow: 0px 1px 1px #EEEEEEEEEEEE;
+    color: var(--bg-color);
+    text-shadow: 0px 1px 1px white;
     font-weight: 550;
     font-size: 32px;
     span {
-        color: #ffa500;
+        color: var(--title-section-color);
     }
 }
 
@@ -302,7 +329,7 @@ body {
 }
 
 .heading-sm-footer {
-    color: #eeeeee;
+    color: var(--bg-color);
     font-size: 22px;
     letter-spacing: 2px;
     font-weight: 700;
@@ -317,7 +344,7 @@ body {
     font-size: 20px;
     padding: 8px;
     border: 1px solid #478ee8;
-    color: #eeeeee;
+    color: var(--bg-color);
     margin: 0 4px 0 0;
     transition: 0.2s ease-in;
 }
@@ -328,7 +355,7 @@ body {
 }
 
 .heading-pages {
-    color: #eeeeee;
+    color: var(--bg-color);
     font-size: 28px;
     letter-spacing: 2px;
     font-weight: 700;
@@ -338,7 +365,7 @@ body {
 /* dùng để ghi đè lên nav-link */
 .footer-links {
     font-size: 18px !important;
-    color: #676667 !important;
+    color: var(--color-content) !important;
     margin: 5px 0 !important;
 }
 
@@ -360,8 +387,41 @@ body {
 
 .copyright {
     margin-top: 20px;
-    border-top: 1px solid #676667;
+    border-top: 1px solid var(--color-content);
     height: 80px;
 }
 
 /* =============== end FOOTER =================*/
+
+/* ======================================== BLOG PAGE ============================================ */
+
+.banner {
+    width: 100%;
+    min-height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../image/imgTourList/page-title-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .content {
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.banner .content h1 {
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: var(--color1-heading);
+}
+
+.custom-card {
+    width: 90%; /* Điều chỉnh chiều rộng của thẻ, thay đổi giá trị này theo ý muốn */
+    margin: 0 auto; /* Căn giữa thẻ trong cột */
+}
+
+.content-blog .card .card-img-top {
+    height: 250px;
+}
+
+/* ======================================== BLOG PAGE ============================================ */

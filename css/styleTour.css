@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins";
-    transition: .3s;
+    font-family: 'Poppins';
+    transition: 0.3s;
 }
 :root {
     --primary-color: #2c3855;
@@ -12,15 +12,13 @@
     --text-light: #767268;
     --extra-light: #f3f4f6;
     --white: #fff;
-    --max-width: 1200px
+    --max-width: 1200px;
 }
-.header{
-    background-color: #f9f9f9;
-}
+
 .tour-body {
     border-color: #e1e1e1;
 }
-.title-container{
+.title-container {
     height: 250px;
     width: auto;
     background-image: url(../image/imgTourList/page-title-background.jpg);
@@ -29,7 +27,7 @@
     position: relative;
     text-align: left;
 }
-.title-container h1{
+.title-container h1 {
     padding-bottom: 102px;
     padding-top: 108px;
     padding-left: 20px;
@@ -66,7 +64,7 @@ img {
     border-radius: 1rem;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    transition: .5s;
+    transition: 0.5s;
 }
 .popular-grid .popular-card:hover {
     box-shadow: none;
