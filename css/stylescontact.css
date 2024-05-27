@@ -135,19 +135,19 @@
     list-style: none;
     margin-right: 15px;
 }
-/* .media li i {
+.media li i {
     font-size: 20px;
     padding: 8px;
     border: 1px solid #478ee8;
     color: #fff;
     margin: 0 4px 0 0;
     transition: 0.2s ease-in;
-} */
+}
 
-/* .media li a i:hover {
+.media li a i:hover {
     background-color: #477de7;
     color: #ffa500;
-} */
+}
 
 .map {
     padding: 0;
