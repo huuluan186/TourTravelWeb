@@ -45,16 +45,8 @@ body {
     }
 }
 
-<<<<<<< HEAD
-.navbar-toggler span{
-    color: #ffa500;
-}
-.navbar-item {
-    margin: 0 30px;
-=======
 .navbar-toggler span {
     color: var(--title-section-color);
->>>>>>> 56094285a06fb4b9c614cd112c1ffd1ce346e2f4
 }
 
 .nav-item .nav-link {
