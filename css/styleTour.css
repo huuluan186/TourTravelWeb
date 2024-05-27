@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins";
-    transition: .3s;
+    font-family: 'Poppins';
+    transition: 0.3s;
 }
 
 :root {
@@ -13,13 +13,20 @@
     --text-light: #767268;
     --extra-light: #f3f4f6;
     --white: #fff;
+<<<<<<< HEAD
     --max-width: 1200px
+=======
+    --max-width: 1200px;
+>>>>>>> 56094285a06fb4b9c614cd112c1ffd1ce346e2f4
 }
 
 .tour-body {
     border-color: #e1e1e1;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 56094285a06fb4b9c614cd112c1ffd1ce346e2f4
 .title-container {
     height: 250px;
     width: auto;
@@ -29,7 +36,10 @@
     position: relative;
     text-align: left;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 56094285a06fb4b9c614cd112c1ffd1ce346e2f4
 .title-container h1 {
     padding-bottom: 102px;
     padding-top: 108px;
@@ -75,7 +85,7 @@ img {
     border-radius: 1rem;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .popular-grid .popular-card:hover {
@@ -113,6 +123,7 @@ img {
     transform: translateY(0px);
     opacity: 1;
 }
+<<<<<<< HEAD
 
 .option {
     display: flex;
@@ -278,3 +289,5 @@ img {
         margin-top: 10px;
     }
 }
+=======
+>>>>>>> 56094285a06fb4b9c614cd112c1ffd1ce346e2f4
