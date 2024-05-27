@@ -13,20 +13,14 @@
     --text-light: #767268;
     --extra-light: #f3f4f6;
     --white: #fff;
-<<<<<<< HEAD
     --max-width: 1200px
-=======
     --max-width: 1200px;
->>>>>>> 56094285a06fb4b9c614cd112c1ffd1ce346e2f4
 }
 
 .tour-body {
     border-color: #e1e1e1;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 56094285a06fb4b9c614cd112c1ffd1ce346e2f4
 .title-container {
     height: 250px;
     width: auto;
@@ -36,10 +30,7 @@
     position: relative;
     text-align: left;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 56094285a06fb4b9c614cd112c1ffd1ce346e2f4
 .title-container h1 {
     padding-bottom: 102px;
     padding-top: 108px;
@@ -123,7 +114,6 @@ img {
     transform: translateY(0px);
     opacity: 1;
 }
-<<<<<<< HEAD
 
 .option {
     display: flex;
@@ -289,5 +279,3 @@ img {
         margin-top: 10px;
     }
 }
-=======
->>>>>>> 56094285a06fb4b9c614cd112c1ffd1ce346e2f4

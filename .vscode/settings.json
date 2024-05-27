@@ -1,6 +1,6 @@
 {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "livePreview.defaultPreviewPath": "/PhamHuuLuan/form/RegisterForm.html",
+    "livePreview.defaultPreviewPath": "/html/TourList2.html",
     "liveServer.settings.port": 5501
 }

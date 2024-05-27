@@ -52,7 +52,7 @@ html {
 }
 
 @-ms-viewport {
-    width: device-width
+    width: device-width;
 }
 
 article,
@@ -10513,7 +10513,7 @@ a.text-dark:hover {
     z-index: 999;
     width: 100%;
     position: relative;
-    background-color: #f9f9f9;
+    min-height: 10vh;
 }
 
 .navbar-brand {
@@ -10522,31 +10522,40 @@ a.text-dark:hover {
     font-weight: 550;
     color: black;
     text-shadow: 0px 1px 1px black;
-    margin-bottom: 5px;
+    margin: 3px 0;
     span {
-        color: #ffa500;
+        color: var(--title-section-color);
     }
 }
 
-.navbar-toggler span{
-    color: #ffa500;
+.navbar-toggler span {
+    color: var(--title-section-color);
 }
-.navbar-item {
-    margin: 0 30px;
-}
+
 .nav-item .nav-link {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 550;
     color: black;
     letter-spacing: 1px;
-    border-radius: 3px;
     transition: 0.5s ease;
     margin: 0 30px;
 }
 
 .nav-item .nav-link:hover {
-    background: #ffa500;
-    color: white;
+    border-radius: 3px;
+    background: var(--title-section-color);
+}
+
+@media (min-width: 1400px) {
+    .nav-item .nav-link {
+        font-size: 30px;
+        margin: 32px 30px;
+        font-weight: 650;
+    }
+    .navbar-brand {
+        font-size: 45px;
+        font-weight: 650;
+    }
 }
 
 /* ================== END HEADER=================== */
