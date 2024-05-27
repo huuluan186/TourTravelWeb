@@ -27,7 +27,7 @@ body {
     z-index: 999;
     width: 100%;
     position: relative;
-    min-height: 15vh;
+    min-height: 10vh;
 }
 
 .navbar-brand {
@@ -62,7 +62,7 @@ body {
 
 @media (min-width: 1400px) {
     .nav-item .nav-link {
-        font-size: 32px;
+        font-size: 30px;
         margin: 32px 30px;
         font-weight: 650;
     }
