@@ -10,16 +10,7 @@
     margin-bottom: 40px;
     margin-top: 50px;
 }
-.div1 .cap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-}
-.div1 .cap h2 {
-    color: #000;
-    font-weight: 500;
-}
+
 .form {
     grid-area: form;
 }
@@ -97,7 +88,7 @@
 .inputBox input[type='submit'] {
     background-color: #ce3939;
     font-style: normal;
-    color: #fff;
+    color: #eee;
     border: none;
     font-size: 15px;
     max-width: 80px;
@@ -108,7 +99,7 @@
     background-color: #0e3959;
 }
 .info h3 {
-    color: #fff;
+    color: #eee;
 }
 .info .infoBox div {
     display: flex;

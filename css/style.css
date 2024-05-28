@@ -151,11 +151,28 @@ body {
     }
 }
 
+@media (min-width: 1300px) {
+    .text-content-home h3 {
+        font-size: 60px;
+    }
+    .text-content-home h1 {
+        font-size: 80px;
+    }
+    .text-content-home h5 {
+        font-size: 30px;
+    }
+
+    .text-content-home a {
+        font-size: 30px;
+        line-height: 50px;
+    }
+}
+
 /* =================== END HOME SECTION (SLIDE IMAGE)================== */
 
 /* ================== START TOUR PACKAGE  ======================*/
 .background-tour-packages {
-    min-height: 120vh;
+    min-height: 130vh;
     width: 100%;
     background: url('../image/india.png') center no-repeat;
     background-size: cover;
@@ -211,6 +228,11 @@ body {
 .star i {
     font-size: 12px;
 }
+
+.checked {
+    color: var(--title-section-color);
+}
+
 .packages .card .card-body h6 {
     font-size: 20px;
 }
@@ -223,7 +245,7 @@ body {
 }
 
 .card .card-img-top {
-    height: 200px;
+    height: 330px;
 }
 
 @media (max-width: 450px) {

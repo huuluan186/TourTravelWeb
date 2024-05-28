@@ -15,3 +15,23 @@ window.addEventListener('scroll', function () {
         });
     }
 });
+
+// // nut cuon ve dau trang
+
+// window.onscroll = function () {
+//     scrollFunction();
+// };
+
+// function scrollFunction() {
+//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//         document.getElementById('backToTopBtn').style.display = 'block';
+//     } else {
+//         document.getElementById('backToTopBtn').style.display = 'none';
+//     }
+// }
+
+// // Cuộn về đầu trang khi người dùng click vào nút
+// function backToTop() {
+//     document.body.scrollTop = 0; // Dành cho Safari
+//     document.documentElement.scrollTop = 0; // Dành cho Chrome, Firefox, IE và Opera
+// }
