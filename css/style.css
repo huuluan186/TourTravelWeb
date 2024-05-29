@@ -17,6 +17,31 @@
     --color-content: #676667;
 }
 
+/* scroll */
+.navbar.scrolled {
+    background-color: rgba(51, 51, 51, 0.7) !important;
+}
+
+.navbar.scrolled .nav-link,
+.navbar.scrolled .dropdown-menu .dropdown-item {
+    color: #fff !important;
+}
+
+.navbar.scrolled .dropdown-menu {
+    background-color: rgba(51, 51, 51, 0.7) !important;
+}
+
+/* Revert to original styles */
+.navbar:not(.scrolled) .nav-link,
+.navbar:not(.scrolled) .dropdown-menu .dropdown-item {
+    color: #000 !important;
+}
+
+.navbar:not(.scrolled) .dropdown-menu {
+    background-color: #fff !important;
+}
+
+/* scroll */
 body {
     width: 100%;
     /*màunềnchủđạo*/
@@ -59,6 +84,11 @@ body {
 }
 
 .nav-item .nav-link:hover {
+    border-radius: 3px;
+    background: var(--title-section-color);
+}
+
+.dropdown-menu .dropdown-item:hover {
     border-radius: 3px;
     background: var(--title-section-color);
 }
@@ -495,7 +525,3 @@ body {
         padding-top: 50%;
     }
 }
-
-/* ============================ DETAIL TOUR PAGE ================================================ */
-
-/* ============================ DEATAIL TOUR PAGE ================================================ */

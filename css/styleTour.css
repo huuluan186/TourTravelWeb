@@ -16,29 +16,6 @@
     --max-width: 1200px;
 }
 
-.tour-body {
-    border-color: #e1e1e1;
-}
-
-.title-container {
-    height: 250px;
-    width: auto;
-    background-image: url(../image/imgTourList/page-title-background.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    text-align: left;
-}
-
-.title-container h1 {
-    padding-bottom: 102px;
-    padding-top: 108px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #fff;
-    font-size: 42px;
-}
-
 a {
     text-decoration: none;
 }
