@@ -271,12 +271,9 @@ body {
 .packages .card .card-body h6 {
     font-size: 20px;
 }
+
 .packages .card .card-body a {
-    padding: 10px;
-    text-decoration: none;
-    background: var(--title-section-color);
     color: var(---color1-heading);
-    border-radius: 5px;
 }
 
 .card .card-img-top {
