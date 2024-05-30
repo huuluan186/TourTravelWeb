@@ -10,7 +10,7 @@ body {
 
 .site-cover {
     width: 100%;
-    min-height: 70vh;
+    min-height: 80vh;
 }
 
 .site-cover .content {
@@ -41,7 +41,7 @@ body {
         font-size: 5rem;
     }
 }
-
+/* ipad mini */
 @media (max-width: 768px) {
     .site-cover .content h1 a {
         font-size: 3rem;
@@ -50,5 +50,20 @@ body {
 
     .site-cover .content {
         padding-top: 50%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .site-cover .content {
+        padding-top: 18%;
+    }
+
+    .site-cover .content h1 a {
+        font-size: 10rem;
+        letter-spacing: 7px;
+    }
+
+    .site-cover .content .post-category {
+        font-size: 2rem;
     }
 }

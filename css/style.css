@@ -103,6 +103,11 @@ body {
         font-size: 45px;
         font-weight: 650;
     }
+
+    .dropdown-item {
+        font-size: 30px;
+        font-weight: 650;
+    }
 }
 
 /* ================== END HEADER=================== */
@@ -480,48 +485,3 @@ body {
 }
 
 /* ======================================== BLOG PAGE ============================================ */
-
-.site-cover {
-    width: 100%;
-    min-height: 70vh;
-}
-
-.site-cover .content {
-    width: 100%;
-    padding-top: 12%;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.site-cover .content h1 a {
-    font-size: 6rem;
-    letter-spacing: 10px;
-    color: var(--bg-color);
-}
-
-.site-cover .content .post-category {
-    display: inline-block;
-    padding: 2px 10px;
-    border-radius: 4px;
-    letter-spacing: 0.2em;
-    font-weight: 700;
-    font-size: 1rem;
-}
-
-/* Responsive design */
-@media (max-width: 1200px) {
-    .site-cover .content h1 a {
-        font-size: 5rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .site-cover .content h1 a {
-        font-size: 3rem;
-        letter-spacing: 5px;
-    }
-
-    .site-cover .content {
-        padding-top: 50%;
-    }
-}
