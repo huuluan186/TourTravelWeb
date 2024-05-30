@@ -1,189 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Hikers Blog &mdash; Colorlib Website Template</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-        <!-- font awesome cdn -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- font awesome cdn -->
+<head>
+    <title>Hikers Blog &mdash; Colorlib Website Template</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-        <!-- Bootstrap css , js-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <!-- Bootstrap css , js -->
-        <link rel="stylesheet" href="../css/style.css" />
-        <link rel="stylesheet" href="../css/styleMinTour.css" />
-    </head>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn -->
 
-    <body>
-        <!-- navbar bootstrap -->
-        <header class="header">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <a class="navbar-brand" href="#"> <span>Travel</span>Tour</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav ms-auto">
+    <!-- Bootstrap css , js-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap css , js -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/styleMinTour.css" />
+</head>
+
+<body>
+    <!-- navbar bootstrap -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#"> <span>Travel</span>Tour</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"> Tour</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="TourList.html">Asia</a></li>
+                                <li><a class="dropdown-item" href="TourList2.html">Europe</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- navbar -->
+
+    <section class="site-cover"
+        style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../image/imgTourList/HoiAn/HoiAn-Background.jpg) no-repeat; background-size: cover">
+        <div class="container-fluid">
+            <div class="content">
+                <span class="post-category text-white bg-success mb-3">Viet Nam</span>
+                <h1 class="mb-4"><a href="#">Hoi An</a></h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="site-section">
+        <div class="container">
+            <div class="row blog-entries element-animate">
+                <div class="col-sm-12 main-content fs-5">
+                    <div class="post-content-body mt-5">
+                        <h2 class="text-danger">1. Giới thiệu Phố cổ Hội An</h2>
+                        <p>Phố Cổ Hội An – Từng là một thương cảng rất sầm uất và sôi động, thế nhưng điều đó không làm
+                            vùi lấp không khí cổ xưa của nơi đây. Cuộc sống vẫn cứ bình lặng mặc cho đã trải qua hàng
+                            trăm năm, khi mà ngoài kia bao nhiêu nơi vẫn không ngừng vươn mình phát triển. Những mái cũ
+                            rêu phong, những con đường ngập tràn trong sắc màu của những chiếc đèn lồng và cả những công
+                            trình cổ kính,… tất cả khiến bạn như có cảm giác trở về quá khứ. </p>
+                        <p>Phố cổ Hội An là một thành phố du lịch nổi tiếng của tỉnh Quảng Nam, nằm trọn trong Phường
+                            Minh An, thuộc hạ lưu sông Thu Bồn, thuộc vùng đồng bằng ven biển của tỉnh Quảng Nam, Việt
+                            Nam. Cách trung tâm thành phố Đà Nẵng khoảng 30 km về phía Nam, phía Đông giáp với biển
+                            Đông, phía Nam giáp với huyện Duy Xuyên và phía Tây giáp với huyện Điện Bàn</p>
+                        <div class="map text-center"><iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.5532955875096!2d108.33547197517765!3d15.880058384772289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31420d94eda04bf7%3A0xee010143eee848dd!2zUGjhu5UgY-G7lSBI4buZaSBBbg!5e0!3m2!1svi!2s!4v1717050136922!5m2!1svi!2s"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                        <p>Hội An nổi tiếng bởi vẻ đẹp kiến trúc truyền thống, hài hòa của những ngôi nhà cổ, những bức
+                            tường và cả những con đường. Dù đã trải qua hàng trăm năm với biết bao biến cố nhưng nơi đây
+                            vẫn giữ nguyên những nét đẹp cổ xưa, trầm mặc rêu phong trên từng mái ngói, hàng cây…</p>
+
+                        <p>Kiểu nhà ở đây mang lối kiến trúc hình ống thoáng mát, ngập tràn ánh nắng mặt trời. Đường phố
+                            thì được bố trí ngang dọc theo kiểu bàn cờ với những con phố ngắn, uốn lượn, ôm lấy những
+                            ngôi nhà nhỏ nhìn rất đẹp mắt. Dạo quanh từng con phố nhỏ và yên bình ấu hẳn du khách sẽ có
+                            cảm giác như trở về không gian của hàng trăm năm trước, nó kem lại sự thoải mái, nhẹ nhàng.
+                        </p>
+                        <div class="row mb-5 mt-5">
+                            <div class="col-sm-12 mb-4 text-center">
+                                <img src="../image/imgTourList/HoiAn/HoiAn1.jpg" alt="Image placeholder"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="col-sm-6 mb-4">
+                                <img src="../image/imgTourList/HoiAn/HoiAn2.jpg" alt="Image placeholder"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="col-sm-6 mb-4">
+                                <img src="../image/imgTourList/HoiAn/HoiAn3.jpg" alt="Image placeholder"
+                                    class="img-fluid rounded" />
+                            </div>
+                        </div>
+                        <h2 class="text-danger">2. Những địa điểm tham quan nổi tiếng tại Hội An</h2>
+                        <p>Như đã nói, trải qua hơn 400 năm hình thành và phát triển, hiện nay Hội An vẫn giữ được hơn
+                            100 di tích cổ. Toàn bộ đều mang nét đặc trưng riêng mà hầu như ai mỗi lần tới đây đều muốn
+                            ghé thăm chiêm ngưỡng, khám phá</p>
+                        <h3 class="text-warning">2.1. Chùa Cầu</h3>
+                        <p>Mỗi lần nhắc đến phố cổ Hội An, chắc chắn không thể bỏ qua công trình này. Chùa Cầu hay còn
+                            gọi là Chùa Cầu Nhật Bản, là công trình kiến trúc độc đáo, tiêu biểu ở đây. Ngôi chùa được
+                            xây chính bởi các thương gia Nhật Bản khi đến đây buôn bán vào giữa thế kỷ 16. Do ảnh hưởng
+                            của thiên tai, dịch họa, chùa đã trải qua nhiều lần trùng tu nên dần mất đi các chi tiết
+                            kiến trúc Nhật Bản mà thay vào đó là những nét kiến trúc Việt – Trung.</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/HoiAn/ChuaCau.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Chùa Cầu – di tích lịch sử của phố cổ.</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <h3 class="text-warning">2.2 Nhà cổ Tấn Ký</h3>
+                        <p>Khi giới thiệu phố cổ Hội An phải nhắc đến yếu tố này. Nhà cổ Tấn Ký vinh dự trở thành di sản
+                            cấp quốc gia. Đây từng là nơi đón tiếp các Nguyên thử quốc gia, chính khách trong và ngoài
+                            nước. Ngôi nhà cổ này kết hợp giữa kiểu kiến trúc Việt Nam, Nhật Bản và Trung Quốc với hình
+                            ống đặc trưng, gồm 2 thanh ngang chồng lên nhau và 5 thanh dọc.</p>
+                        <div class="pt-5">
+                            <div class="col-sm-8 mb-4 offset-sm-2">
+                                <figure class="figure text-center">
+                                    <img src="../image/imgTourList/HoiAn/NhaCo.jpg" class="figure-img img-fluid rounded"
+                                        alt="Mô tả ảnh">
+                                    <figcaption class="figure-caption fs-6"><i>Nhà cổ Tấn Ký hơn 150 năm tuổi.</i>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <h3 class="text-warning">2.3 Hội Quán Phúc Kiến</h3>
+                        <p>Đây cũng là một công trình tiêu biểu nằm trong danh sách các di tích nổi tiếng ở Hộ An. Tương
+                            truyền, tiền thân của Hội quán là một gian miếu nhỏ thờ pho tượng Thiên Hậu Thanh Mẫu –
+                            người phù hộ cho các ngư dân và thương nhân thuận buồm xuôi gió. Qua nhiều lần trùng tu, với
+                            sự đóng góp của Hoa Liều bang Phúc Kiến, hội quán càng trở nên rực rỡ, khang trang như tô
+                            điểm thêm diện mạo cho phố cổ.</p>
+                        <div class="pt-5">
+                            <div class="col-sm-8 mb-4 offset-sm-2">
+                                <figure class="figure text-center">
+                                    <img src="../image/imgTourList/HoiAn/HoiQuan.jpg"
+                                        class="figure-img img-fluid rounded" alt="Mô tả ảnh">
+                                    <figcaption class="figure-caption fs-6"><i>Hội Quán Phúc Kiến – đặc trưng kiến trúc
+                                            người Hoa.</i></figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <h3 class="text-warning">2.4 Chùa Ông</h3>
+                        <p>Chùa Ông được xây dựng vào năm 1653 và đã trải qua 6 lần trùng tu vào năm 1753, 1783, 1827,
+                            1862, 1904 và lần cuối cùng vào năm 1906. Đây là một trong số các ngôi chùa cổ của Hội An,
+                            sở hữu lối kiến trúc uy nghi, hoành tráng. Trong chùa thờ tượng Quan Vân Trường nên còn được
+                            gọi với cái tên là Quan Công Miếu. Ngoài là điểm tín ngưỡng của người dân địa phương thì
+                            chùa Ông còn là nơi mà các thương nhân thường đến cầu may mắn, làm ăn phát đạt.</p>
+                        <div class="pt-5">
+                            <div class="col-sm-8 mb-4 offset-sm-2">
+                                <figure class="figure text-center">
+                                    <img src="../image/imgTourList/HoiAn/ChuaOng.jpg"
+                                        class="figure-img img-fluid rounded" alt="Mô tả ảnh">
+                                    <figcaption class="figure-caption fs-6"><i>Chùa Ông uy nghi.</i></figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <p class="text-danger">Trên đây là một số địa điểm du lịch nổi tiếng khi đến Phố cổ Hội An. Nếu
+                            Du Khách cần biết thêm thông tin, hãy liên hệ với TravelTour để được tư vấn về Tour du lịch
+                            hàng đầu Châu Á cao cấp. </p>
+
+                    </div>
+                    <div class="comment-form-wrap pt-5">
+                        <h3 class="mb-5">Leave a comment</h3>
+                        <form action="#" class="p-5 bg-light">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" class="form-control" id="name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" class="form-control" id="email" />
+                            </div>
+                            <div class="form-group">
+                                <label for="website">Website</label>
+                                <input type="url" class="form-control" id="website" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Post Comment" class="btn btn-primary" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4 col-md-6">
+                    <h3 class="heading-logo footer-logo"><span>Travel</span>Tour</h3>
+                    <p class="footer-para">
+                        Giấy phép kinh doanh theo số: 0301171827 (Đăng ký lần đầu ngày 13/01/2005) do Sở Kế hoạch và Đầu
+                        tư TPHCM cấp. <br />
+                        Mã số thuế: 0301171827 Số giấy phép kinh doanh lữ hành Quốc tế: 79-089/2020/TCDL-GP LHQT
+                    </p>
+                    <h5 class="heading-sm-footer">FOLLOW US</h5>
+                    <div class="social-links-footer">
+                        <a href=""> <i class="fa-brands fa-facebook icon-social-footer"></i></a>
+                        <a href=""> <i class="fa-brands fa-instagram icon-social-footer"></i></a>
+                        <a href=""> <i class="fa-brands fa-twitter icon-social-footer"></i></a>
+                        <a href=""> <i class="fa-brands fa-vimeo-v icon-social-footer"></i></a>
+                        <a href=""> <i class="fa-brands fa-linkedin-in icon-social-footer"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-4 col-md-6">
+                    <div class="pages-footer">
+                        <h3 class="heading-pages">Pages Links</h3>
+                        <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Tour</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="TourList.html">Asia</a></li>
-                                    <li><a class="dropdown-item" href="TourList2.html">Europe</a></li>
-                                </ul>
+                                <a class="nav-link footer-links" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="blog.html">Blog</a>
+                                <a class="nav-link footer-links" aria-current="page" href="TourList.html">Tour</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact us</a>
+                                <a class="nav-link footer-links" href="blog.html">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html">About us</a>
+                                <a class="nav-link footer-links" href="contact.html">Contact us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link footer-links" href="about.html">About us</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </nav>
-        </header>
-        <!-- navbar -->
 
-        <section class="site-cover" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../image/imgTourList/VietNam.jpg) no-repeat; background-size: cover">
-            <div class="container-fluid">
-                <div class="content">
-                    <span class="post-category text-white bg-success mb-3">Viet Nam</span>
-                    <h1 class="mb-4"><a href="#">Hoi An</a></h1>
+                <div class="col-sm-12 col-lg-4 col-md-6">
+                    <h3 class="heading-pages">Contact us</h3>
+                    <p class="contact-footer d-flex flex-column">
+                        <span class="text-contact"> <i class="fa-solid fa-location-dot contact-icon-footer"></i>Số 126
+                            Nguyễn Thiện Thành, khóm 4, phường 5, Thành phố Trà Vinh, Việt Nam </span>
+                        <span class="text-contact"> <i
+                                class="fa-solid fa-envelope contact-icon-footer"></i>Traveltourcontact@gmail.com </span>
+                        <span class="text-contact"> <i class="fa-solid fa-phone contact-icon-footer"></i>+021-1234 5678
+                        </span>
+                    </p>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section class="site-section">
-            <div class="container">
-                <div class="row blog-entries element-animate">
-                    <div class="col-sm-12 main-content fs-5">
-                        <div class="post-content-body mt-5">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nam quas inventore, ut iure iste modi eos adipisci ad ea itaque labore earum autem nobis et numquam, minima eius. Nam eius, non unde ut aut sunt eveniet rerum repellendus porro.</p>
-                            <p>Sint ab voluptates itaque, ipsum porro qui obcaecati cumque quas sit vel. Voluptatum provident id quis quo. Eveniet maiores perferendis officia veniam est laborum, expedita fuga doloribus natus repellendus dolorem ab similique sint eius cupiditate necessitatibus, magni nesciunt ex eos.</p>
-                            <p>Quis eius aspernatur, eaque culpa cumque reiciendis, nobis at earum assumenda similique ut? Aperiam vel aut, ex exercitationem eos consequuntur eaque culpa totam, deserunt, aspernatur quae eveniet hic provident ullam tempora error repudiandae sapiente illum rerum itaque voluptatem. Commodi, sequi.</p>
-                            <div class="row mb-5 mt-5">
-                                <div class="col-sm-12 mb-4 text-center">
-                                    <img src="../image/imgTourList/HoiAn/HoiAn1.jpg" alt="Image placeholder" class="img-fluid rounded" />
-                                </div>
-                                <div class="col-sm-6 mb-4">
-                                    <img src="../image/imgTourList/HoiAn/HoiAn2.jpg" alt="Image placeholder" class="img-fluid rounded" />
-                                </div>
-                                <div class="col-sm-6 mb-4">
-                                    <img src="../image/imgTourList/HoiAn/HoiAn3.jpg" alt="Image placeholder" class="img-fluid rounded" />
-                                </div>
-                            </div>
-                            <p>Quibusdam autem, quas molestias recusandae aperiam molestiae modi qui ipsam vel. Placeat tenetur veritatis tempore quos impedit dicta, error autem, quae sint inventore ipsa quidem. Quo voluptate quisquam reiciendis, minus, animi minima eum officia doloremque repellat eos, odio doloribus cum.</p>
-                            <p>Temporibus quo dolore veritatis doloribus delectus dolores perspiciatis recusandae ducimus, nisi quod, incidunt ut quaerat, magnam cupiditate. Aut, laboriosam magnam, nobis dolore fugiat impedit necessitatibus nisi cupiditate, quas repellat itaque molestias sit libero voluptas eveniet omnis illo ullam dolorem minima.</p>
-                            <p>Porro amet accusantium libero fugit totam, deserunt ipsa, dolorem, vero expedita illo similique saepe nisi deleniti. Cumque, laboriosam, porro! Facilis voluptatem sequi nulla quidem, provident eius quos pariatur maxime sapiente illo nostrum quibusdam aliquid fugiat! Earum quod fuga id officia.</p>
-                            <p>Illo magnam at dolore ad enim fugiat ut maxime facilis autem, nulla cumque quis commodi eos nisi unde soluta, ipsa eius aspernatur sint atque! Nihil, eveniet illo ea, mollitia fuga accusamus dolor dolorem perspiciatis rerum hic, consectetur error rem aspernatur!</p>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus magni explicabo id molestiae, minima quas assumenda consectetur, nobis neque rem, incidunt quam tempore perferendis provident obcaecati sapiente, animi vel expedita omnis quae ipsa! Obcaecati eligendi sed odio labore vero reiciendis facere accusamus molestias eaque impedit, consequuntur quae fuga vitae fugit?</p>
-                        </div>
-
-                        <div class="pt-5">
-                            <p>Categories: <a href="#">Food</a>, <a href="#">Travel</a> Tags: <a href="#">#manila</a>, <a href="#">#asia</a></p>
-                        </div>
-                        <div class="comment-form-wrap pt-5">
-                            <h3 class="mb-5">Leave a comment</h3>
-                            <form action="#" class="p-5 bg-light">
-                                <div class="form-group">
-                                    <label for="name">Name *</label>
-                                    <input type="text" class="form-control" id="name" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">Email *</label>
-                                    <input type="email" class="form-control" id="email" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="website">Website</label>
-                                    <input type="url" class="form-control" id="website" />
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="message">Message</label>
-                                    <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <input type="submit" value="Post Comment" class="btn btn-primary" />
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+        <div class="container-fluid gx-0">
+            <div class="copyright d-flex align-items-center justify-content-center">
+                <p class="fs-5 mt-5">&copy;Copyright TravelTour.com . All Rights Reserved</p>
             </div>
-        </section>
-        <!-- footer -->
-        <footer class="footer">
-            <div class="container footer-container">
-                <div class="row">
-                    <div class="col-sm-12 col-lg-4 col-md-6">
-                        <h3 class="heading-logo footer-logo"><span>Travel</span>Tour</h3>
-                        <p class="footer-para">
-                            Giấy phép kinh doanh theo số: 0301171827 (Đăng ký lần đầu ngày 13/01/2005) do Sở Kế hoạch và Đầu tư TPHCM cấp. <br />
-                            Mã số thuế: 0301171827 Số giấy phép kinh doanh lữ hành Quốc tế: 79-089/2020/TCDL-GP LHQT
-                        </p>
-                        <h5 class="heading-sm-footer">FOLLOW US</h5>
-                        <div class="social-links-footer">
-                            <a href=""> <i class="fa-brands fa-facebook icon-social-footer"></i></a>
-                            <a href=""> <i class="fa-brands fa-instagram icon-social-footer"></i></a>
-                            <a href=""> <i class="fa-brands fa-twitter icon-social-footer"></i></a>
-                            <a href=""> <i class="fa-brands fa-vimeo-v icon-social-footer"></i></a>
-                            <a href=""> <i class="fa-brands fa-linkedin-in icon-social-footer"></i></a>
-                        </div>
-                    </div>
+        </div>
+    </footer>
+    <!-- footer -->
 
-                    <div class="col-sm-12 col-lg-4 col-md-6">
-                        <div class="pages-footer">
-                            <h3 class="heading-pages">Pages Links</h3>
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link footer-links" aria-current="page" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link footer-links" aria-current="page" href="TourList.html">Tour</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link footer-links" href="blog.html">Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link footer-links" href="contact.html">Contact us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link footer-links" href="about.html">About us</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+    <script src="../js/javascript.js"></script>
+</body>
 
-                    <div class="col-sm-12 col-lg-4 col-md-6">
-                        <h3 class="heading-pages">Contact us</h3>
-                        <p class="contact-footer d-flex flex-column">
-                            <span class="text-contact"> <i class="fa-solid fa-location-dot contact-icon-footer"></i>Số 126 Nguyễn Thiện Thành, khóm 4, phường 5, Thành phố Trà Vinh, Việt Nam </span>
-                            <span class="text-contact"> <i class="fa-solid fa-envelope contact-icon-footer"></i>Traveltourcontact@gmail.com </span>
-                            <span class="text-contact"> <i class="fa-solid fa-phone contact-icon-footer"></i>+021-1234 5678 </span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container-fluid gx-0">
-                <div class="copyright d-flex align-items-center justify-content-center">
-                    <p class="fs-5 mt-5">&copy;Copyright TravelTour.com . All Rights Reserved</p>
-                </div>
-            </div>
-        </footer>
-        <!-- footer -->
-
-        <script src="../js/javascript.js"></script>
-    </body>
 </html>
