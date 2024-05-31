@@ -1,221 +1,552 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Hikers Blog &mdash; Colorlib Website Template</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-        <!-- font awesome cdn -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- font awesome cdn -->
+<head>
+    <title>Hikers Blog &mdash; Colorlib Website Template</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-        <!-- Bootstrap css , js-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <!-- Bootstrap css , js -->
-        <link rel="stylesheet" href="../css/styleMinTour.css" />
-        <link rel="stylesheet" href="../css/style.css" />
-    </head>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn -->
 
-    <body>
-        <!-- navbar bootstrap -->
-        <header class="header">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <a class="navbar-brand" href="#"> <span>Travel</span>Tour</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav ms-auto">
+    <!-- Bootstrap css , js-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap css , js -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/styleMinTour.css" />
+</head>
+
+<body>
+    <!-- navbar bootstrap -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#"> <span>Travel</span>Tour</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"> Tour</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="TourList.html">Asia</a></li>
+                                <li><a class="dropdown-item" href="TourList2.html">Europe</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- navbar -->
+
+    <section class="site-cover"
+        style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../image/imgTourList/Japan/Japan-background.jpg) no-repeat; background-size: cover">
+        <div class="container-fluid">
+            <div class="content">
+                <span class="post-category text-white bg-success mb-3">Japan</span>
+                <h1 class="mb-4"><a href="#">Fujikawa</a></h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="site-section">
+        <div class="container">
+            <div class="row blog-entries element-animate">
+                <div class="col-sm-12 main-content fs-5">
+                    <div class="post-content-body mt-5">
+                        <h2 class="text-danger"> <strong>Giới thiệu du lịch Nhật Bản</strong></h2>
+                        <p>Nhật bản là đảo quốc có lịch sử cùng nền văn hóa lâu đời từ hàng nghìn năm. Đây chắc chắn là
+                            địa điểm du lịch lý tưởng với đa dạng những nét đặc sắc để du khách thỏa sức khám phá. Cùng
+                            tìm hiểu những thông tin giới thiệu chung về Nhật Bản dưới đây để biết thêm nhiều điều về
+                            “đất nước mặt trời mọc” này nhé!</p>
+                        <p>Đây là một đảo quốc thuộc châu Á, bao gồm 6852 hòn đảo nhỏ với tổng diện tích 377.975 km2.
+                            Trong đó, 5 hòn đảo chính và quan trọng nhất là Hokkaido, Honshu, Shikoku, Okinawa và
+                            Kyushu. Số dân Nhật Bản đứng thứ 11 trên thế giới, đồng thời quốc gia này còn có mật độ dân
+                            số và tốc độ đô thị hóa cao.
+
+                        </p>
+
+                        <div class="row mb-5 mt-5">
+                            <div class="col-sm-12 mb-4 text-center">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1663021.9572365477!2d138.450528192392!3d35.50205867439866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2zVMO0a3nDtCwgTmjhuq10IELhuqNu!5e0!3m2!1svi!2s!4v1717139792975!5m2!1svi!2s"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <p>Nhật Bản nằm ở Đông Á, phía Tây của Thái Bình Dương. Trên thực tế Nhật Bản chính là một quốc
+                            đảo gồm có 4 đảo chính. Bao gồm: Honshu, Hokkaido, Kyushuy và Shikoku cùng nhiều dãy đảo và
+                            khoảng 3.900 đảo nhỏ. Trong đó, đảo Honshu chiếm tới 60% diện tích của cả nước. Nhật Bản
+                            cũng là quốc gia thường được biết đến với rất rất nhiều núi và núi lửa. </p>
+                        <p>Tiêu biểu là ngọn núi cao nhất, biểu tượng của đất nước hoa anh đào là Núi Phú Sĩ. Ngoài ra
+                            những quốc gia và lãnh thổ nằm lân cận vùng biển Nhật Bản là Nga, Bắc Triều Tiên, Hàn Quốc,
+                            ở vùng biển Đông Hải là Trung Quốc và Đài Loan. Xa hơn về phía Nam Nhật Bản là Philippines
+                            cùng quần đảo Bắc Mariana. Với vị trí địa lý thuận lợi như thế đã Nhật Bản dễ dàng giao
+                            thương với các nước. </p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <iframe width="850" height="490"
+                                    src="https://www.youtube.com/embed/NQ6_Sqt_w3Y?si=Nu3OPirkV63hdAqA"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <figcaption class="figure-caption fs-6"><i>Video ngắn giới thiệu về Đà Nẵng</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p>Ngoài ra với vị trí trải dài như thế, thiên nhiên Nhật Bản cũng trở nên đa dạng. Bạn có thể
+                            trải nghiệm tuyết mùa đông ở vùng Hokkaido Nhật Bản. Nhưng cùng thời điểm, bạn cũng có thể
+                            trải nghiệm cái nắng của Tokyo. </p>
+                        <h2 class="text-danger">
+                            <strong>Ngày 1 | HCM – OSAKA</strong>
+                        </h2>
+
+                        <p>Hướng dẫn viên công ty Viettourist đón quý&nbsp;khách tại điểm hẹn tại&nbsp;sân bay đáp
+                            chuyến bay đi&nbsp;<strong>Osaka</strong>&nbsp;- &nbsp;<strong>Osaka</strong>&nbsp;ngày nay
+                            là một thành phố phát triển cực kỳ hưng thịnh, là trung tâm kinh tế, dịch vụ, giáo dục cấp
+                            cao ở Nhật Bản.&nbsp;<strong>Osaka</strong>&nbsp;hấp dẫn du khách bởi vẻ đẹp độc đáo mang
+                            đậm phong cách truyền thống kết hợp hiện đại….&nbsp;<strong>Osaka</strong>&nbsp;cũng là điểm
+                            giao thương đường thủy của nhiều quốc gia, nên còn được mệnh danh là “thành phố nước”.</p>
+                        <p>&nbsp;</p>
+                        <p>Chuyến bay thẳng dự kiến hàng không VJ:</p>
+                        <p><strong>Chuyến đi: SGN - KIX ( OSAKA) : Giờ đi&nbsp;01:00&nbsp; - Thời gian bay 05h30 - Giờ
+                                đến 08h30&nbsp;</strong></p>
+                        <p><strong>Chuyến về: NRT ( TOKYO) - SGN :&nbsp;Giờ đi&nbsp;08:55&nbsp; - Thời gian bay 06h05 -
+                                Giờ đến 13h00&nbsp;</strong></p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/AirPlane.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Sân bay Osaka</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <h2 class="text-danger">
+                            <strong>Ngày 2 | KANSAI AIRPORT – KOBE CITY - OSAKA</strong>
+                        </h2>
+                        <p>Đến sân bay&nbsp;<strong>Kansai</strong>, Đoàn làm thủ tục nhập cảnh, xe và HDV đưa đoàn đi
+                            tham quan thành phố Kobe mệnh danh là châu Âu của Nhật Bản cách thành phố Osaka&nbsp;30phút
+                            – Viettourist sẽ đưa quý&nbsp;khách chiêm ngưỡng một loạt các cảnh quan ngoạn mục và kiến
+                            trúc tinh xảo, phức tạp. Hơn thế nữa, Qúy khách sẽ choáng ngợp với cảnh quan thiên nhiên và
+                            không khí trong lành của thành phố&nbsp;<strong>Kobe</strong>. Đoàn tham quan:</p>
+                        <p><strong>Công viên Meriken</strong>&nbsp;nằm cạnh bờ sông thuộc khu vực cảng Kobe. Meriken là
+                            nơi có những kiến trúc mang tính biểu tượng của thành phố Kobe</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/CongVien.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Công viên Meriken</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p><strong>Tháp Kobe</strong>&nbsp;được xây dựng vào năm 1963 và với sơn màu đỏ như một biểu
+                            tượng của Kobe. Với tổng chiều cao là 108m, tháp này đã được sử dụng để quan sát. Đứng ở
+                            đỉnh tháp, bạn có thể để thấy toàn bộ thành phố Kobe.</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/ThapKobe.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Tháp Kobe</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p><strong>Cầu Akashi-Kaikyo, thường được gọi là "cây cầu ngọc trai</strong>" Cây cầu đã lấy
+                            được sự chú ý của thế giới về kiến trúc có một không hai của nó. Đặc biệt, với chiều dài
+                            nhịp chính là 1991m và tổng chiều dài cây cầu là
+                            3911m,&nbsp;<strong>Akashi-Kaikyo</strong>&nbsp;là cây cầu dài nhất thế giới.</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/Cau.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Cầu Akashi-Kaikyo - cây cầu dài nhất thế
+                                        giới</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p>Khởi hành về&nbsp;<strong>Osaka</strong>&nbsp;đoàn tham quan:&nbsp;</p>
+                        <p><strong>Lâu đài Osaka</strong>&nbsp;hay còn gọi là lâu đài Hạc Trắng, là một trong những
+                            thành cổ nổi tiếng nhất nước Nhật, đóng một vai trò quan trọng trong việc thống nhất Nhật
+                            Bản vào cuối thế kỷ XVI. Đây là một điểm du lịch vô cùng hấp dẫn và thu hút hàng trăm nghìn
+                            khách du lịch Nhật Bản đến đây mỗi năm.&nbsp;<strong>Toà tháp Osaka tráng
+                                lệ,</strong>&nbsp;toạ lạc giữa những khu vườn thơ mộng 4 mùa hoa nở.</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/LauDai.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Lâu đài Osaka - vào mùa thu</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p><strong>Shinsaibashi&nbsp;</strong>là điểm mua sắm hàng đầu ở Osaka, với sự pha trộn của cửa
+                            hàng bách hóa và cửa hàng bán lẻ và bạn có thể tìm thấy các vật phẩm ở tất cả các mức giá.
+                        </p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/Shinsai.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Shinsaibashi - khu mua sắm</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p>Đoàn ăn tối tại nhà hàng, về khách sạn nghỉ ngơi tại&nbsp;<strong>Osaka.</strong>&nbsp;Tự do
+                            khám phá Osaka về đêm</p>
+                        <h2 class="text-danger">
+                            <strong>Ngày 3 | OSAKA – NARA - CỐ ĐÔ KYOTO – NAGOYA</strong>
+                        </h2>
+                        <p>Ăn sáng tại khách sạn, đoàn làm thủ tục trả phòng khởi hành đi tham quan <strong>công viên
+                                NARA</strong>&nbsp; -&nbsp;Dạo chơi với hơn 2.000 Hưu sao sống tự nhiên tại đây qua hàng
+                            trăm năm tạo nên sự hấp dẫn đặc biệt cho Nara - Công viên Nara&nbsp;bốn mùa thay đổi đẹp như
+                            một bức tranh đặc biệt là mùa Hoa Anh Đào nở.</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/Nara.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Công viên Nara</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p>Đến cố đô&nbsp;<strong>Kyoto</strong>&nbsp;để lý giải vì sao Kyoto là thành phố du lịch tuyệt
+                            nhất thế giới? Thành phố có sự kết hợp hoàn hảo giữa cổ điển và hiện đại, những con phố mua
+                            sắm nhộn nhịp và hình ảnh các geisha yêu kiều… Đến&nbsp;<strong>Kyoto</strong>&nbsp;đoàn ăn
+                            trưa và tham quan:</p>
+                        <p><strong>Chùa Nước (Kyomizu) &nbsp;còn gọi là Chùa Thanh Thủy</strong>&nbsp;được xây dựng vào
+                            đầu thời kỳ Nara (năm 778) Một trong những ngồi chùa linh thiêng nổi tiếng nhất Nhật Bản.
+                            Hàng năm chào đón khoảng 3 triệu người đến cúng bái. Nơi này có 3 ngọn thác mà người Nhật
+                            rất linh nghiệm về "trường thọ", "tình duyên", "học hành thành đạt", nếu người chiêm bái
+                            uống một ngụm nước ở một trong ba dòng nước trên thì điềm may sẽ đến. Ngược lại, nếu uống 2
+                            ngụm thì sự linh ứng sẽ giảm đi một nữa, uống 3 ngụm thì vận tốt chỉ còn một phần ba. Hơn
+                            nữa, nếu tham lam mà uống nước ở cả 3 dòng thì hoàn toàn sẽ không linh nghiệm. Điều này được
+                            đúc kết thành lời răn dạy từ xa xưa. Trước khi uống nước thiêng ở dòng thác, hãy chắp tay
+                            khấn vái cư sĩ Gyoei đang được thờ phía sau thác nước để thể hiện lòng tôn trọng trang
+                            nghiêm và thành tâm muốn xin dòng nước tinh khiết này.</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/Kiyomizu.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Chùa Nước Kyomizu</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p><strong>Chùa Vàng (Kinkaku-ji),&nbsp;</strong>Được mệnh danh là Tây Kinh của nước Nhật, ngôi
+                            chùa vàng Kinkakuji được xây dựng từ thế kỷ 14 và Chùa còn được gọi với một tên gọi khác
+                            là&nbsp;<strong>Chùa Rokuonji -&nbsp;</strong>Du khách đến đây đều phải sửng sốt. Toàn bộ
+                            mặt trong và mặt ngoài của khối kiến trúc ba tầng đồ sộ này đều được dát vàng óng ánh, biến
+                            nơi đây trở thành một trong những thắng cảnh hấp dẫn nhất xứ Phù Tang. Từng được coi là quốc
+                            bảo và được&nbsp;<strong>Unesco</strong>&nbsp;công nhận là di sản văn hóa thế giới. Nét đặc
+                            trưng nhất về sự tinh xảo và cầu kì của ngôi&nbsp;<strong>chùa vàng
+                                Kinkakuji</strong>&nbsp;này chính là một vị thế rất ấn tượng giữa những tán xanh của cây
+                            lá và ánh sáng tinh khiết phản chiếu của hồ nước tĩnh lặng.&nbsp;<strong>Chùa
+                                Vàng</strong>&nbsp;chính là một biểu tượng có giá trị về tinh thần, đã từng là
+                            một&nbsp;<strong>Shariden (Đền Xá lị)</strong>&nbsp;– di tích của Phật giáo. Ngày nay, toàn
+                            bộ ngôi chùa ngoại trừ tầng trệt đều được bọc bằng những lá vàng nguyên chất, khiến cho ngôi
+                            chùa có giá trị vô cùng lớn.Nơi du khách thập phương dù là người Nhật hay người nước ngoài
+                            đều một lần muốn ghé thăm</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/ChuaVang.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Chùa Vàng Kinkaku-ji</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p><strong>Chùa Ngàn Cột (Fushimi Inari),</strong>&nbsp;một ngôi chùa đẹp kỳ lạ, nơi đóng bộ
+                            phim đoạt giải Oscar Hồi ức của một Geisha chuyển thể từ chuyện cùng tên. Chùa có những cây
+                            cổng đỏ rực rỡ trải dọc con đường dài 4 km dẫn lên đền&nbsp;<strong>Fushimi Inari
+                                Taisha</strong>&nbsp;thờ thần Inari. Inari được coi là vị thần bảo trợ kinh doanh, nên
+                            mỗi cổng đều do một doanh nghiệp cúng dường.</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/NganCot.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Chùa Ngàn Cột Fushimi Inari</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p>Đến giờ&nbsp;đoàn khởi hành về thành phố Nagoya – Ăn tối nhận phòng khách sạn nghỉ ngơi.</p>
+                        <h2 class="text-danger">
+                            <strong>Ngày 4 | NAGOYA - YAMANASHI - hồ Kawaguchi - làng cổ Oshino Hakkai - HAKONE</strong>
+                        </h2>
+                        <p>Ăn sáng tại khách sạn,&nbsp;khởi hành đi YAMANASHI – Nổi tiếng bởi đây là Quê hương của NÚI
+                            PHÚ SỸ. Thành phố Yamanashi mệnh danh là “vương quốc trái cây”, bốn mùa cây xanh lá, trái
+                            chín ngọt cành. Trái cây hầu như mọc quanh năm, mùa nào thức ấy, mỗi loại mang một hương vị
+                            riêng, Yamanashi, nơi nổi tiếng với sản lượng đào, lê và nho lớn nhất Nhật Bản.&nbsp;Trong
+                            đó đặc biệt nhất là cây anh đào “Sakuranbo”. Đến đây vào khoảng tháng 7, 8, bạn sẽ choáng
+                            ngợp trước những khu vườn anh đào rực rỡ màu đỏ chín mọng trong veo như ngọc nở
+                            rộ&nbsp;-&nbsp;Đoàn ăn trưa tại nhà hàng &amp; tham quan:</p>
+                        <p><strong>Cảnh sắc 4 mùa hồ Kawaguchi</strong>&nbsp;mùa xuân có thể ngắm hoa anh đào,
+                            hoa&nbsp;<strong>Mitsubatsutsuji</strong>&nbsp;làm không gian nhuốm sắc đỏ, sắc hồng, Vào
+                            mùa hè, hoa Lavandula (oải hương Hà Lan) màu tím khoe sắc đua nở ven bờ hồ, tạo ra một quang
+                            cảnh thật dễ chịu và thoải mái. Vào mùa thu có lá đỏ với nhiều màu sắc khác nhau tạo ra một
+                            quang cảnh thật đẹp được nhuộm bởi màu đỏ, màu vàng…</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/HoKawa.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Hồ Kawaguchi</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p><strong>Oshino Hakkai</strong>&nbsp;là ngôi làng cổ nằm yên bình dưới chân núi Phú Sĩ Tuyết
+                            trắng bao phủ ngôi làng vào mùa đông và rực rỡ hoa anh Đào vào mùa xuân. Cho đến ngày nay,
+                            những ngôi nhà ở làng Oshino Hakkai vẫn mang nét kiến trúc truyền thống xa xưa Nhật Bản.</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/LangCo.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Làng cổ Oshino Hakkai</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p>Về khách sạn khu vực&nbsp;<strong>Hakone</strong>&nbsp;– Thiên đường du lịch của Nhật Bản
+                            Được mệnh là Venice của Nhật Bản, Điểm đến tuyệt vời sở hữu rất nhiều cảnh quan làm&nbsp;
+                            mê&nbsp; đắm&nbsp; lòng&nbsp; người.&nbsp;Đến&nbsp;<strong>Hakone&nbsp;</strong>nhận phòng
+                            nghỉ ngơi tắm suối khoáng nóng Osen kiểu Nhật thiên nhiên tại resort chuẩn 4 sao. Đoàn đi ăn
+                            tối, Nghỉ đêm tại&nbsp;<strong>Hakone</strong></p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/Hakone.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Khách sạn khu vực Hakone</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <h2 class="text-danger">
+                            <strong>
+                                Ngày 5 | HAKONE - NÚI PHÚ SĨ - THỦ ĐÔ TOKYO
+                            </strong>
+                        </h2>
+                        <p>Ăn sáng tại khách sạn,&nbsp;Đoàn khởi hành lên<strong>&nbsp;Trạm Fuji Subaru
+                                Line(1<sup>st</sup>- 5<sup>th)&nbsp;</sup></strong>tùy theo điều kiện thời tiết. Trạm
+                            nổi tiếng nhất trong các trạm&nbsp;để chiêm ngưỡng cận cảnh&nbsp;<strong>núi Phú
+                                Sĩ</strong>&nbsp;. Từ trạm 5 du khách chỉ cần ngước mắt là có thể thấy đỉnh núi phủ
+                            tuyết hoặc ngắm toàn cảnh vùng Ngũ Hồ Phú Sĩ trải dài trong tầm mắt. biểu tượng nổi tiếng
+                            nhất Nhật Bản, Phú Sĩ là ngọn núi cao nhất cao 3.776m nổi tiếng với dáng hình chóp gần như
+                            hoàn hảo và là một ngọn núi thiêng trong Thần Đạo Nhật Bản.</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/PhuSi.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Núi Phú Sĩ</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p>Ăn trưa tại nhà hàng &amp; khởi hành về thủ đô&nbsp;<strong>Tokyo</strong>&nbsp;tham quan:
+                        </p>
+                        <p><strong>Hoàng cung Tokyo</strong>&nbsp;nơi cư trú chính của Hoàng gia Nhật Bản &amp; công
+                            viên HOA ANH ĐÀO rực rỡ&nbsp;</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/HoangCung.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Hoàng cung Tokyo</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p><strong>Asakusa Kannon</strong>&nbsp;- ngôi đền linh thiêng cổ xưa nhất của Tokyo: Asakusa
+                            hay còn gọi là đền Sensoji đặc biệt thu hút người dân Nhật Bản tới cầu nguyện vào đêm giao
+                            thừa cũng như trong những ngày đầu năm mới.</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/Asuka.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Đền Sensoji - Asukasa Kannon</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p><strong>Phố mua sắm Nakamise</strong>&nbsp;- Tokyo Nhật Bản, là khu phố mua sắm nhộn nhịp
+                            phồn vinh vẫn còn duy trì lối sống xa xưa của người dân.</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/Naka.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Phố mua sắm Nakamise</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p>Tháp truyền hình&nbsp;<strong>Tokyo Skytree&nbsp;</strong>(chỉ chụp hình)<strong>.</strong>
+                        </p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/SkyTree.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Tháp truyền hình Shytree</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p>Ăn tối về khách sạn nhận phòng nghỉ ngơi. Nghỉ đêm tại&nbsp;<strong>Tokyo -&nbsp;</strong>
+                            tự do khám phá Tokyo về đêm.</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/TokyoNight.jpg"
+                                    class="figure-img img-fluid rounded" alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Tokyo về đêm</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <h2 class="text-danger">
+                            <strong>Ngày 6 | TOKYO – PHỐ CỔ NARITA</strong>
+                        </h2>
+                        <p>Đoàn ăn sáng và tự do&nbsp;mua sắm tại trung tâm Tokyo - đến giờ đoàn ăn trưa - trả phòng xe
+                            và HDV đón đoàn Narita nhận phòng khách sạn</p>
+                        <p>Buổi chiều &nbsp;tham quan<strong>&nbsp;</strong>phố cổ Naritasan chiêm bái chùa ngàn năm
+                            tuổi&nbsp;<strong>Naritasan Shinshoji,</strong>&nbsp;nơi được ví như một bách khoa toàn thư
+                            của Nhật Bản&nbsp;được xây dựng từ năm 940 -&nbsp;Qúy khách&nbsp;thong thả rảo bước trên
+                            con&nbsp;<strong>đường nhỏ Omote-Sando</strong>&nbsp;dẫn đến chùa Naritasan xung quanh là
+                            những&nbsp;ngôi nhà gỗ được xây dựng theo kiểu truyền thống, những cửa hàng bán đồ lưu niệm,
+                            những tiệm ăn với kiểu trang trí mang đậm màu sắc Nhật Bản cùng với hương vị đặc trưng các
+                            loại đặc sản vùng Narita.</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/ChuaNganTuoi.jpg"
+                                    class="figure-img img-fluid rounded" alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Chùa ngàn năm tuổi Naritasan Shinshoji</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Japan/ChuaNaritasan.jpg"
+                                    class="figure-img img-fluid rounded" alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Chùa Naritasanchùa Naritasan</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <h2 class="text-danger">
+                            <strong>
+                                Ngày 7 TOKYO - SÂN BAY NARITA - HCM
+                            </strong>
+                        </h2>
+                        <p>Ăn sáng tại khách sạn, đến giờ xe đưa quý khách ra sân bay làm thủ tục xuất cảnh đáp chuyến
+                            bay về Việt Nam.&nbsp;Đến Việt Nam kết thúc chương trình chia tay chào tạm biệt và hẹn gặp
+                            lại Quý khách</p>
+                        <p><strong>Chuyến về: NRT ( TOKYO) - SGN :&nbsp;</strong></p>
+                        <p><strong>Giờ đi lúc 08:55&nbsp;- Thời gian bay 06h05 - Giờ đến 13h00</strong></p>
+                    </div>
+
+                    <div class="pt-5">
+                        <p>Categories: <a href="#">Food</a>, <a href="#">Travel</a> Tags: <a href="#">#manila</a>, <a
+                                href="#">#asia</a></p>
+                    </div>
+                    <div class="comment-form-wrap pt-5">
+                        <h3 class="mb-5">Leave a comment</h3>
+                        <form action="#" class="p-5 bg-light">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" class="form-control" id="name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" class="form-control" id="email" />
+                            </div>
+                            <div class="form-group">
+                                <label for="website">Website</label>
+                                <input type="url" class="form-control" id="website" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Post Comment" class="btn btn-primary" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4 col-md-6">
+                    <h3 class="heading-logo footer-logo"><span>Travel</span>Tour</h3>
+                    <p class="footer-para">
+                        Giấy phép kinh doanh theo số: 0301171827 (Đăng ký lần đầu ngày 13/01/2005) do Sở Kế hoạch và Đầu
+                        tư TPHCM cấp. <br />
+                        Mã số thuế: 0301171827 Số giấy phép kinh doanh lữ hành Quốc tế: 79-089/2020/TCDL-GP LHQT
+                    </p>
+                    <h5 class="heading-sm-footer">FOLLOW US</h5>
+                    <div class="social-links-footer">
+                        <a href=""> <i class="fa-brands fa-facebook icon-social-footer"></i></a>
+                        <a href=""> <i class="fa-brands fa-instagram icon-social-footer"></i></a>
+                        <a href=""> <i class="fa-brands fa-twitter icon-social-footer"></i></a>
+                        <a href=""> <i class="fa-brands fa-vimeo-v icon-social-footer"></i></a>
+                        <a href=""> <i class="fa-brands fa-linkedin-in icon-social-footer"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-4 col-md-6">
+                    <div class="pages-footer">
+                        <h3 class="heading-pages">Pages Links</h3>
+                        <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Tour</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="TourList.html">Asia</a></li>
-                                    <li><a class="dropdown-item" href="TourList2.html">Europe</a></li>
-                                </ul>
+                                <a class="nav-link footer-links" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="blog.html">Blog</a>
+                                <a class="nav-link footer-links" aria-current="page" href="TourList.html">Tour</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact us</a>
+                                <a class="nav-link footer-links" href="blog.html">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html">About us</a>
+                                <a class="nav-link footer-links" href="contact.html">Contact us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link footer-links" href="about.html">About us</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </nav>
-        </header>
-        <!-- navbar -->
 
-        <section class="site-cover" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../image/imgTourList/Japan/Japan-background.jpg) no-repeat; background-size: cover">
-            <div class="container-fluid">
-                <div class="content">
-                    <span class="post-category text-white bg-success mb-3">Japan</span>
-                    <h1 class="mb-4"><a href="#">Fujikawa</a></h1>
+                <div class="col-sm-12 col-lg-4 col-md-6">
+                    <h3 class="heading-pages">Contact us</h3>
+                    <p class="contact-footer d-flex flex-column">
+                        <span class="text-contact"> <i class="fa-solid fa-location-dot contact-icon-footer"></i>Số 126
+                            Nguyễn Thiện Thành, khóm 4, phường 5, Thành phố Trà Vinh, Việt Nam </span>
+                        <span class="text-contact"> <i
+                                class="fa-solid fa-envelope contact-icon-footer"></i>Traveltourcontact@gmail.com </span>
+                        <span class="text-contact"> <i class="fa-solid fa-phone contact-icon-footer"></i>+021-1234 5678
+                        </span>
+                    </p>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section class="site-section">
-            <div class="container">
-                <div class="row blog-entries element-animate">
-                    <div class="col-sm-12 main-content fs-5">
-                        <div class="post-content-body mt-5">
-                            <h2 class="text-danger">1. Giới thiệu về thị trấn Fujikawa</h2>
-                            <p>Fujikawa (富士川町, Fujikawa-chō) là một thị trấn nhỏ nằm ở quận Minamikoma, tỉnh Yamanashi, Nhật Bản. Đây là một khu vực giàu lịch sử và thiên nhiên, mang đến cho du khách những trải nghiệm độc đáo và sâu sắc về văn hóa và cảnh quan của Nhật Bản.</p>
-                            <p>Fujikawa tọa lạc ở khu vực miền trung của tỉnh Yamanashi, nơi có địa hình chủ yếu là núi non và thung lũng. Thị trấn này nằm gần dãy núi Akaishi và có con sông Fuji chảy qua, tạo nên cảnh quan thiên nhiên hùng vĩ và thơ mộng. Với vị trí địa lý thuận lợi, Fujikawa dễ dàng kết nối với các thành phố lớn như Kofu, thủ phủ của tỉnh Yamanashi, và các khu vực lân cận thông qua hệ thống giao thông đường bộ và đường sắt.</p>
-                            <div class="map text-center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103894.02446137165!2d138.2434419802668!3d35.53670055180848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601b8ccd49d08c87%3A0xebb118095c273ed5!2sFujikawa%2C%20Minamikoma%20District%2C%20Yamanashi%2C%20Nh%E1%BA%ADt%20B%E1%BA%A3n!5e0!3m2!1svi!2s!4v1717052378484!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-                            <p>Fujikawa có một bề dày lịch sử và văn hóa phong phú. Thị trấn này từng là một điểm dừng chân quan trọng trên con đường Tokaido, tuyến đường cổ xưa kết nối Edo (Tokyo ngày nay) và Kyoto. Do đó, Fujikawa đã phát triển thành một trung tâm thương mại và văn hóa sôi động trong nhiều thế kỷ.</p>
-                            <p>Thị trấn có nhiều đền chùa và di tích lịch sử, phản ánh bề dày văn hóa của khu vực. Các lễ hội truyền thống diễn ra suốt cả năm, đặc biệt là lễ hội mùa xuân và mùa thu, thu hút nhiều du khách tham gia và khám phá.</p>
-                            <div class="row mb-5 mt-5">
-                                <div class="col-sm-12 mb-4 text-center">
-                                    <img src="../image/imgTourList/Japan/Japan.jpg" alt="Image placeholder" class="img-fluid rounded" />
-                                </div>
-                                <div class="col-sm-6 mb-4">
-                                    <img src="../image/imgTourList/Japan/Japan1.jpg" alt="Image placeholder" class="img-fluid rounded" />
-                                </div>
-                                <div class="col-sm-6 mb-4">
-                                    <img src="../image/imgTourList/Japan/Japan2.jpg" alt="Image placeholder" class="img-fluid rounded" />
-                                </div>
-                            </div>
-                            <h2 class="text-danger">2. Những địa điểm tham quan nổi tiếng tại Fujikawa</h2>
-                            <p>Fujikawa nổi tiếng với các công trình kiến trúc cổ kính và di sản văn hóa. Những ngôi nhà cổ ở đây được xây dựng bằng gỗ, với mái ngói âm dương và sân vườn nhỏ bên trong, tạo nên một không gian sống ấm cúng và thanh bình. Các di tích lịch sử, như những ngôi chùa và đền thờ cổ, cung cấp một cái nhìn sâu sắc về đời sống tôn giáo và văn hóa của người dân địa phương. Bên cạnh đó cảnh quan thiên nhiên và ẩm thực nơi đây cực kì đa dạng và phong phú.</p>
-                            <h3 class="text-warning">2.1. Đền Fujisan Hongu Sengen Taisha</h3>
-                            <p>Đền Fujisan Hongu Sengen Taisha, được thành lập vào năm 806, là một trong những ngôi đền quan trọng và lâu đời nhất ở Nhật Bản. Ngôi đền này là đền chính trong hệ thống hơn 1.300 đền Sengen trên khắp đất nước, tất cả đều thờ phụng thần núi Phú Sĩ, Konohanasakuya-hime, một vị thần nữ biểu trưng cho sự sinh sôi và bảo vệ khỏi các thảm họa thiên nhiên như núi lửa và động đất. Đền được xây dựng nhằm cầu nguyện cho sự an toàn của cư dân sống dưới chân núi Phú Sĩ và cho sự bình an của khu vực xung quanh.</p>
-                            <div class="col-sm-8 mb-4 offset-sm-2">
-                                <figure class="figure text-center">
-                                    <img src="../image/imgTourList/Japan/Japan3.jpg" class="figure-img img-fluid rounded" alt="Mô tả ảnh">
-                                    <figcaption class="figure-caption fs-6"><i>Đền Fujisan Hongu Sengen Taisha - phong thái uy nghiêm, cổ kín.</i></figcaption>
-                                </figure>
-                            </div>
-                            <h3 class="text-warning">2.2. Hồ Kawaguchi</h3>
-                            <p>Hồ Kawaguchi là một trong năm hồ lớn nằm ở chân núi Phú Sĩ, được biết đến với tên gọi "Fuji Five Lakes" (Ngũ Hồ Phú Sĩ). Với vị trí đắc địa tại tỉnh Yamanashi, hồ Kawaguchi nổi tiếng nhờ vẻ đẹp thiên nhiên tuyệt vời và tầm nhìn hùng vĩ ra núi Phú Sĩ. Đây là điểm đến lý tưởng cho những ai muốn tận hưởng cảnh quan tuyệt đẹp và tham gia vào nhiều hoạt động ngoài trời. Hồ Kawaguchi nằm ở độ cao khoảng 830 mét so với mực nước biển và có diện tích khoảng 6,13 km². Hồ có chu vi 19 km và độ sâu trung bình 14,6 mét. Vùng này có khí hậu ôn hòa, với mùa hè mát mẻ và mùa đông lạnh giá. Thời điểm đẹp nhất để tham quan hồ Kawaguchi là vào mùa xuân và mùa thu, khi thời tiết dễ chịu và cảnh sắc thiên nhiên thay đổi tuyệt đẹp.</p>
-                            <div class="col-sm-8 mb-4 offset-sm-2">
-                                <figure class="figure text-center">
-                                    <img src="../image/imgTourList/Japan/Japan4.jpg" class="figure-img img-fluid rounded" alt="Mô tả ảnh">
-                                    <figcaption class="figure-caption fs-6"><i>Hồ Kawaguchi - 1 trong 5 hồ nước lớn nhất ở gần núi Phú Sĩ.</i></figcaption>
-                                </figure>
-                            </div>
-                            <h3 class="text-warning">2.3. Suối nước nóng (Onsen)</h3>
-                            <p>Suối nước nóng, hay còn gọi là onsen, là một phần quan trọng của văn hóa Nhật Bản và là điểm đến phổ biến cho du khách muốn tận hưởng sự thư giãn và làm mới cơ thể. Chúng là những nguồn nước nóng tự nhiên chứa nhiều loại khoáng chất, được cho là có lợi cho sức khỏe và làm đẹp da. Trải nghiệm tắm onsen không chỉ là cách thư giãn và làm mới cơ thể mà còn là một phần của lối sống truyền thống của người Nhật. Nhật Bản nổi tiếng với hàng ngàn onsen trải rộng khắp đất nước, mỗi nơi mang lại trải nghiệm và tinh thần đặc biệt. Dù là ở miền núi, bờ biển, hay thậm chí trong các thành phố lớn, bạn đều có thể tìm thấy một onsen phù hợp với nhu cầu của mình.</p>
-                            <div class="col-sm-8 mb-4 offset-sm-2">
-                                <figure class="figure text-center">
-                                    <img src="../image/imgTourList/Japan/Japan5.jpg" class="figure-img img-fluid rounded" alt="Mô tả ảnh">
-                                    <figcaption class="figure-caption fs-6"><i>Suối nước nóng (Onsen) - một trong những nơi đáng để trải nghiệm.</i></figcaption>
-                                </figure>
-                            </div>
-                            <h3 class="text-warning">2.4. Vườn hoa Kawaguchi</h3>
-                            <p>Vườn Hoa Kawaguchi, nằm dọc bờ hồ Kawaguchi ở Fujikawa, không chỉ là một điểm tham quan phổ biến mà còn là một biểu tượng của vẻ đẹp thiên nhiên tại khu vực này. Dù không có thông tin cụ thể về diện tích chính xác của vườn hoa này, nhưng nó được biết đến với quy mô lớn và cung cấp một loạt các loài hoa phong phú, tạo nên một cảnh quan lãng mạn và tuyệt vời. Vườn hoa Kawaguchi thường được du khách ghé thăm vào mùa xuân và mùa hè, khi hoa anh đào, tulip, hoa cẩm chướng và nhiều loại hoa khác nở rộ. Khi đó, vườn hoa trở thành một điểm đến lý tưởng cho những bức ảnh lung linh và cho những người muốn tận hưởng vẻ đẹp của thiên nhiên.</p>
-                            <div class="col-sm-8 mb-4 offset-sm-2">
-                                <figure class="figure text-center">
-                                    <img src="../image/imgTourList/Japan/Japan6.jpg" class="figure-img img-fluid rounded" alt="Mô tả ảnh">
-                                    <figcaption class="figure-caption fs-6"><i>Vườn hoa Kawaguchi - đắm chìm trong vườn hoa oải hương đẹp nhất Nhật Bản</i></figcaption>
-                                </figure>
-                            </div>
-                            <p class="text-danger">Trên đây là một số địa điểm du lịch nổi tiếng khi đến thị trấn Fujikawa. Nếu Du Khách cần biết thêm thông tin, hãy liên hệ với TravelTour để được tư vấn về Tour du lịch hàng đầu Châu Á cao cấp. </p>
-                        </div>
-
-                        <div class="pt-5">
-                            <p>Categories: <a href="#">Food</a>, <a href="#">Travel</a> Tags: <a href="#">#manila</a>, <a href="#">#asia</a></p>
-                        </div>
-                        <div class="comment-form-wrap pt-5">
-                            <h3 class="mb-5">Leave a comment</h3>
-                            <form action="#" class="p-5 bg-light">
-                                <div class="form-group">
-                                    <label for="name">Name *</label>
-                                    <input type="text" class="form-control" id="name" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">Email *</label>
-                                    <input type="email" class="form-control" id="email" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="website">Website</label>
-                                    <input type="url" class="form-control" id="website" />
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="message">Message</label>
-                                    <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <input type="submit" value="Post Comment" class="btn btn-primary" />
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+        <div class="container-fluid gx-0">
+            <div class="copyright d-flex align-items-center justify-content-center">
+                <p class="fs-5 mt-5">&copy;Copyright TravelTour.com . All Rights Reserved</p>
             </div>
-        </section>
-        <!-- footer -->
-        <footer class="footer">
-            <div class="container footer-container">
-                <div class="row">
-                    <div class="col-sm-12 col-lg-4 col-md-6">
-                        <h3 class="heading-logo footer-logo"><span>Travel</span>Tour</h3>
-                        <p class="footer-para">
-                            Giấy phép kinh doanh theo số: 0301171827 (Đăng ký lần đầu ngày 13/01/2005) do Sở Kế hoạch và Đầu tư TPHCM cấp. <br />
-                            Mã số thuế: 0301171827 Số giấy phép kinh doanh lữ hành Quốc tế: 79-089/2020/TCDL-GP LHQT
-                        </p>
-                        <h5 class="heading-sm-footer">FOLLOW US</h5>
-                        <div class="social-links-footer">
-                            <a href=""> <i class="fa-brands fa-facebook icon-social-footer"></i></a>
-                            <a href=""> <i class="fa-brands fa-instagram icon-social-footer"></i></a>
-                            <a href=""> <i class="fa-brands fa-twitter icon-social-footer"></i></a>
-                            <a href=""> <i class="fa-brands fa-vimeo-v icon-social-footer"></i></a>
-                            <a href=""> <i class="fa-brands fa-linkedin-in icon-social-footer"></i></a>
-                        </div>
-                    </div>
+        </div>
+    </footer>
+    <!-- footer -->
 
-                    <div class="col-sm-12 col-lg-4 col-md-6">
-                        <div class="pages-footer">
-                            <h3 class="heading-pages">Pages Links</h3>
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link footer-links" aria-current="page" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link footer-links" aria-current="page" href="TourList.html">Tour</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link footer-links" href="blog.html">Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link footer-links" href="contact.html">Contact us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link footer-links" href="about.html">About us</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+    <script src="../js/javascript.js"></script>
+</body>
 
-                    <div class="col-sm-12 col-lg-4 col-md-6">
-                        <h3 class="heading-pages">Contact us</h3>
-                        <p class="contact-footer d-flex flex-column">
-                            <span class="text-contact"> <i class="fa-solid fa-location-dot contact-icon-footer"></i>Số 126 Nguyễn Thiện Thành, khóm 4, phường 5, Thành phố Trà Vinh, Việt Nam </span>
-                            <span class="text-contact"> <i class="fa-solid fa-envelope contact-icon-footer"></i>Traveltourcontact@gmail.com </span>
-                            <span class="text-contact"> <i class="fa-solid fa-phone contact-icon-footer"></i>+021-1234 5678 </span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container-fluid gx-0">
-                <div class="copyright d-flex align-items-center justify-content-center">
-                    <p class="fs-5 mt-5">&copy;Copyright TravelTour.com . All Rights Reserved</p>
-                </div>
-            </div>
-        </footer>
-        <!-- footer -->
-
-        <script src="../js/javascript.js"></script>
-    </body>
 </html>

@@ -1,225 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Hikers Blog &mdash; Colorlib Website Template</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-        <!-- font awesome cdn -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- font awesome cdn -->
+<head>
+    <title>Hikers Blog &mdash; Colorlib Website Template</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-        <!-- Bootstrap css , js-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <!-- Bootstrap css , js -->
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn -->
 
-        <link rel="stylesheet" href="../css/style.css" />
-        <link rel="stylesheet" href="../css/styleMinTour.css" />
-        
-    </head>
+    <!-- Bootstrap css , js-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap css , js -->
 
-    <body>
-        <!-- navbar bootstrap -->
-        <header class="header">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <a class="navbar-brand" href="#"> <span>Travel</span>Tour</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav ms-auto">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/styleMinTour.css" />
+
+</head>
+
+<body>
+    <!-- navbar bootstrap -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#"> <span>Travel</span>Tour</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"> Tour</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="TourList.html">Asia</a></li>
+                                <li><a class="dropdown-item" href="TourList2.html">Europe</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- navbar -->
+
+    <section class="site-cover"
+        style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../image/imgTourList/Paris/Paris.jpg) no-repeat; background-size: cover">
+        <div class="container-fluid">
+            <div class="content">
+                <span class="post-category text-white bg-success mb-3">France</span>
+                <h1 class="mb-4"><a href="#">Paris</a></h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="site-section">
+        <div class="container">
+            <div class="row blog-entries element-animate">
+                <div class="col-sm-12 main-content fs-5">
+                    <div class="post-content-body mt-5">
+                        <h2 class="text-danger"><strong>Giới thiệu thành phố Paris</strong></h2>
+                        <p>Paris là thủ đô hiện tại của nước Pháp, một trong ba thành phố có nền kinh tế phát triển
+                            nhanh nhất thế giới chỉ sau New York và London. Đây là trung tâm hành chính quan trọng, toạ
+                            lạc ở phía Bắc, là nơi giao nhau của hai con sông lớn Seine và Marne.</p>
+                        <p>Thủ đô Paris – Pháp được chia làm 20 khu vực, với tạo hình độc đáo hình xoắn ốc theo chiều
+                            kim đồng hồ. Mỗi khu vực lại có nét đặc trưng riêng về văn hoá và xã hội. Tất cả tạo nên một
+                            Paris đầy nguy nga và rực rỡ, nổi tiếng với nhiều công trình kiến trúc cổ xưa, là cái nôi
+                            của nghệ thuật và văn hoá lãng mạn.</p>
+                        <div class="map text-center"><iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d168085.02542843315!2d2.372169!3d48.832872!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2zUGEgcmksIFBow6Fw!5e0!3m2!1svi!2sus!4v1716988843729!5m2!1svi!2sus"
+                                width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                        <p>Đây cũng là thành phố có lịch sử hình thành vô cùng phong phú, không chỉ thu hút được những
+                            người đam mê khảo cổ và kiến trúc xưa, mà còn là địa điểm được nhiều Du Khách chú ý. Nhắc
+                            đến Paris, chắc chắn người ta sẽ nhớ đến những công trình tiêu biểu mang đậm dấu ấn thời đại
+                            như bảo tàng Louvre, Basilique du Sacré-Cœur, Boulevard Montmartre hay Panthéon…</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <iframe width="850" height="490"
+                                    src="https://www.youtube.com/embed/j9q3NLqUvxI?si=bHGvZrbeN2ZJOfP1"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <figcaption class="figure-caption fs-6"><i>Video ngắn giới thiệu về Pháp</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p>Thủ đô Paris cũng được mệnh danh là trung tâm thời trang thế giới, cái nôi của nhiều thương
+                            hiệu nổi tiếng trên toàn cầu như Dior, Hermes hay Lanvin… Bên cạnh đó đến với Paris, chính
+                            là đặt chân đến xứ sở của tình yêu thương và sự lãng mạn, nơi con người ta chìm đắm vào
+                            những bản nhạc du dương mang đậm nét văn hoá Pháp. Paris cũng là địa điểm diễn ra nhiều sự
+                            kiện nổi tiếng trong năm, với lối sống xa hoa lộng lẫy luôn là điểm đến của nhiều minh tinh
+                            hàng đầu.</p>
+                        <h2 class="text-danger"><strong>Ngày 1 | Đảo Île de la Cité – Nhà thờ Đức Bà</strong></h2>
+                        <p><strong>Lịch trình du lịch Paris Pháp 3 ngày</strong> của chúng tôi bắt đầu từ <strong>Île de
+                                la Cité</strong>, một hòn đảo lịch sử nằm ở trung tâm <strong>thành phố Paris</strong>.
+                            Đây là nơi sở hữu những tòa nhà lịch sử tuyệt đẹp. Một trong những công trình quan trọng
+                            nhất của hòn đảo này là <strong>Nhà thờ Đức Bà</strong>. Nhà thờ biểu tượng này được xây
+                            dựng từ 8 thế kỷ trước và được xem là niềm tự hào của Paris. Nó nằm trên một hòn đảo nhỏ ở
+                            giữa <strong>sông Seine</strong>. Nhà thờ này là nơi bạn có thể tìm hiểu thêm về lịch sử của
+                            thành phố. Mặc dù nơi đây đã bị phá hủy nặng nề, tuy nhiên nó đã được phục hồi ngay sau đó.
+                        </p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Paris/nhathoducba.jpg"
+                                    class="figure-img img-fluid rounded" alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Nhà thờ Đức Bà</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p>Sau khi ghé thăm <strong>Đảo Île de la Cité</strong>, hãy đi thẳng tới <strong>Tháp
+                                Eiffel</strong>. Công trình kiến trúc này được xây dựng bởi Gustave Eiffel vào năm 1889.
+                            Tòa tháp này trở thành biểu tượng của nước <strong>Pháp</strong></a> và được cả thế giới
+                            công nhận.
+                            Ngày nay, Tháp Eiffel thu hút hơn 7 triệu du khách tới tham quan hàng năm, giúp nơi đây trở
+                            thành địa danh được nhiều người ghé thăm nhất thế giới. Leo lên tầng 3 của Tháp Eiffel, bạn
+                            sẽ có cơ hội được ngắm nhìn toàn cảnh thành phố và đắm chìm trong vẻ đẹp lung linh, huyền ảo
+                            của thành phố về đêm.</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Paris/Eiffel.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Tháp Eiffel được mệnh danh là biểu tượng hàng
+                                        đầu của Pháp.</i></figcaption>
+                            </figure>
+                        </div>
+                        <p><strong>Du thuyền sông Seine</strong> khởi hành từ chân tòa tháp Eiffel. Chuyến du lịch kéo
+                            dài 1 tiếng sẽ đưa bạn tới những công trình kiến trúc lịch sử của thành phố
+                            <strong>Paris</strong> như <strong>Tòa nhà Quốc hội, Bảo tàng Musee d’Orsay, Viện hàn lâm
+                                Pháp, Điện Pantheon, Cite de la Mode, Hotel de Ville, Nhà thờ Đức Bà, Cung điện
+                                Conciergerie, và nhiều địa danh khác</strong>.
+                        </p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Paris/seine.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Sông Seine hiền hoà và lãng mạn.</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p>Bảo tàng này có cấu trúc độc đáo, nằm gần khu vực Beauborg ở Paris. Tuy nhiên, <strong>Trung
+                                tâm Georges Pompidou</strong> lại nổi tiếng nhờ bộ sưu tập các tác phẩm nghệ hiện hiện
+                            đại. Tòa nhà kỳ lạ này cũng sở hữu một thư viện lớn với gần 500.000 cuốn sách, với sức chứa
+                            khoảng 2.000 người. Không chỉ vậy, bảo tàng này còn chứa hơn 50.000 tác phẩm nghệ thuật bao
+                            gồm tranh vẽ, điêu khắc, và ảnh. Trong khi ngắm nhìn những tác phẩm nghệ thuật hiện đại, bạn
+                            đừng quên ngắm nhìn quang cảnh ngoạn mục của thành phố từ trên sân thượng.</p>
+
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Paris/TrungTam.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Trung tâm Georges Pompidou</i></figcaption>
+                            </figure>
+                        </div>
+                        <h2 class="text-danger">
+                            <strong>
+                                Ngày 2 | Cung điện Versailles - Bảo tàng Louvre
+                            </strong>
+                        </h2>
+                        <p>Ngày thứ 2, <strong>lịch trình <a href="#">du lịch Paris
+                                    Pháp</a></strong> của chúng tôi sẽ đưa bạn tới <strong>Cung điện
+                                Versailles</strong>. Đây là một trong những kiệt tác kiến trúc của thế giới, được xây
+                            dựng từ thế kỷ 17. Chỉ cách ngoại ô Paris khoảng 30 phút, ngôi làng Versailles là trung tâm
+                            chính trị của Vương quốc Pháp. Hãy bắt đầu cuộc hành trình tham quan Cung điện Versailles
+                            bằng cách đi dạo quanh các con đường rải sỏi, các khu vườn Pháp tuyệt đẹp và qua thác nước
+                            Versailles. Sau đó hãy xếp hàng vào bên trong tòa lâu đài để ngắm nhìn các món đồ trang trí
+                            của các vị Vua và Hoàng hậu. Trước khi kết thúc tour tham quan Cung điện Versailles, bạn nên
+                            ghé thăm Phòng gương.</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Paris/CungDien.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Cung điện Versailles</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p>Sau khi tham quan <strong>Cung điện Versailles</strong>, bạn nên nghỉ chân, thư giãn trong
+                            quán cà phê rồi tới <strong>Bảo tàng Louvre</strong>. Ở đây, bạn sẽ có cơ hộ được ngắm nhìn
+                            các bộ sưu tập của bảo tàng. Đây là một trong những địa danh mà bạn nhất định phải ghé thăm
+                            khi đi <strong>du lịch Châu Âu</strong>. Tới đây, bạn sẽ có cơ hội được
+                            chiêm ngưỡng bức vẽ nàng Mona Lisa của Leonardo da Vinci. Kim tự tháp của viện bảo tàng này
+                            chính là địa điểm được chụp ảnh nhiều nhất trong thành phố. Bên cạnh những bức vẽ, Bảo tàng
+                            Louvre còn trưng bày những tác phẩm điêu khắc tuyệt đẹp.</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Paris/BaoTang.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Bảo tàng Louvre</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <h2 class="text-danger">
+                            <strong>Ngày 3 | Montmartre - Hầm mộ Catacombs - Khải hoàn môn</strong>
+                        </h2>
+                        <p>Hãy bắt đầu<strong> lịch trình <a href="#" target="header" rel="">du lịch Paris</a>
+                                Pháp</strong> ngày thứ ba với tour đi bộ quanh
+                            <strong>Montmartre</strong>. Tới đây, bạn sẽ có cơ hội được đi dạo trên những con đường rải
+                            sỏi, bước trên những bậc cầu thang cổ kính và khám phá lịch sử của khu vực này. Khi giá thuê
+                            nhà ở trung tâm thành phố Paris tăng vọt vào đầu những năm 1900, các nghệ sĩ, nhà văn và
+                            người Bô hem đã đổ xô tới đây, khiến nơi đây trở thành một trong những trung tâm quan trọng
+                            về nghệ thuật trên thế giới. Không chỉ vậy, ghé thăm Montmartre, bạn còn có cơ hội được trải
+                            nghiệm phong cách sống, truyền thống của người Bô hem trong hành trình kéo dài 3 giờ đồng hồ
+                            cùng nhà sử học.
+                        </p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Paris/montmartre.jpg"
+                                    class="figure-img img-fluid rounded" alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Montmartre</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p class="text-danger">Trên đây là một số địa điểm du lịch nổi tiếng khi đến thành phố Pháp.
+                            Nếu Du Khách cần biết thêm thông tin, hãy liên hệ với TravelTour để được tư vấn về Tour du
+                            lịch hàng đầu Châu Âu cao cấp. </p>
+                        <p>Sau khi đi bộ quanh Montmartre và ăn trưa, hãy đi thẳng tới <strong>Hầm mộ
+                                Catacombs</strong>. Mặc dù Paris được biết đến là Kinh đô ánh sáng, tuy nhiên nó vẫn có
+                            những mảng tối. Và quá khứ của nơi đây sẽ được kể lại ở Hầm mộ Catacombs. Đây là nơi lưu trữ
+                            hài cốt của hơn 6 triệu người. Những mỏ đá cổ xưa này được xây dựng nhằm loại bỏ những nghĩa
+                            trang nằm rải rác quanh thành phố. Ngày nay, hầm mộ này được công nhận như một viện bảo tàng
+                            ở Paris. Đây là địa điểm hoàn hảo dành cho những ai tò mò, muốn khám phá thêm về thành phố
+                            này.</p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Paris/LangMO.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Hầm mộ Catacombs</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p>Điểm đến cuối cùng trong <strong>lịch trình du lịch Paris Pháp</strong> 3 ngày là
+                            <strong>Khải hoàn môn</strong>. Giống như những địa danh nổi tiếng khác ở thành phố, Khải
+                            hoàn môn nằm sừng sững ở cuối phía tây của <strong>Đại lộ Champs Elysees</strong>. Đây là
+                            nơi vinh danh những người đã hy sinh trong Cuộc cách mạng Pháp và Các cuộc chiến tranh
+                            Napoleon. Khải hoàn môn Paris chính là một trong những cánh cổng lớn nhất thế giới.
+                        </p>
+                        <div class="col-sm-8 mb-4 offset-sm-2">
+                            <figure class="figure text-center">
+                                <img src="../image/imgTourList/Paris/HoanMon.jpg" class="figure-img img-fluid rounded"
+                                    alt="Mô tả ảnh">
+                                <figcaption class="figure-caption fs-6"><i>Khải hoàn môn</i>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+
+
+                    </div>
+                    <div class="comment-form-wrap pt-5">
+                        <h3 class="mb-5">Leave a comment</h3>
+                        <form action="#" class="p-5 bg-light">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" class="form-control" id="name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" class="form-control" id="email" />
+                            </div>
+                            <div class="form-group">
+                                <label for="website">Website</label>
+                                <input type="url" class="form-control" id="website" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Post Comment" class="btn btn-primary" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4 col-md-6">
+                    <h3 class="heading-logo footer-logo"><span>Travel</span>Tour</h3>
+                    <p class="footer-para">
+                        Giấy phép kinh doanh theo số: 0301171827 (Đăng ký lần đầu ngày 13/01/2005) do Sở Kế hoạch và Đầu
+                        tư TPHCM cấp. <br />
+                        Mã số thuế: 0301171827 Số giấy phép kinh doanh lữ hành Quốc tế: 79-089/2020/TCDL-GP LHQT
+                    </p>
+                    <h5 class="heading-sm-footer">FOLLOW US</h5>
+                    <div class="social-links-footer">
+                        <a href=""> <i class="fa-brands fa-facebook icon-social-footer"></i></a>
+                        <a href=""> <i class="fa-brands fa-instagram icon-social-footer"></i></a>
+                        <a href=""> <i class="fa-brands fa-twitter icon-social-footer"></i></a>
+                        <a href=""> <i class="fa-brands fa-vimeo-v icon-social-footer"></i></a>
+                        <a href=""> <i class="fa-brands fa-linkedin-in icon-social-footer"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-4 col-md-6">
+                    <div class="pages-footer">
+                        <h3 class="heading-pages">Pages Links</h3>
+                        <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Tour</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="TourList.html">Asia</a></li>
-                                    <li><a class="dropdown-item" href="TourList2.html">Europe</a></li>
-                                </ul>
+                                <a class="nav-link footer-links" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="blog.html">Blog</a>
+                                <a class="nav-link footer-links" aria-current="page" href="TourList.html">Tour</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact us</a>
+                                <a class="nav-link footer-links" href="blog.html">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html">About us</a>
+                                <a class="nav-link footer-links" href="contact.html">Contact us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link footer-links" href="about.html">About us</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </nav>
-        </header>
-        <!-- navbar -->
 
-        <section class="site-cover" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../image/imgTourList/Paris/Paris.jpg) no-repeat; background-size: cover">
-            <div class="container-fluid">
-                <div class="content">
-                    <span class="post-category text-white bg-success mb-3">France</span>
-                    <h1 class="mb-4"><a href="#">Paris</a></h1>
+                <div class="col-sm-12 col-lg-4 col-md-6">
+                    <h3 class="heading-pages">Contact us</h3>
+                    <p class="contact-footer d-flex flex-column">
+                        <span class="text-contact"> <i class="fa-solid fa-location-dot contact-icon-footer"></i>Số 126
+                            Nguyễn Thiện Thành, khóm 4, phường 5, Thành phố Trà Vinh, Việt Nam </span>
+                        <span class="text-contact"> <i
+                                class="fa-solid fa-envelope contact-icon-footer"></i>Traveltourcontact@gmail.com </span>
+                        <span class="text-contact"> <i class="fa-solid fa-phone contact-icon-footer"></i>+021-1234 5678
+                        </span>
+                    </p>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section class="site-section">
-            <div class="container">
-                <div class="row blog-entries element-animate">
-                    <div class="col-sm-12 main-content fs-5">
-                        <div class="post-content-body mt-5">
-                            <h2 class="text-danger">1. Giới thiệu thành phố Paris</h2>
-                            <p>Paris là thủ đô hiện tại của nước Pháp, một trong ba thành phố có nền kinh tế phát triển nhanh nhất thế giới chỉ sau New York và London. Đây là trung tâm hành chính quan trọng, toạ lạc ở phía Bắc, là nơi giao nhau của hai con sông lớn Seine và Marne.</p>
-                            <p>Thủ đô Paris – Pháp được chia làm 20 khu vực, với tạo hình độc đáo hình xoắn ốc theo chiều kim đồng hồ. Mỗi khu vực lại có nét đặc trưng riêng về văn hoá và xã hội. Tất cả tạo nên một Paris đầy nguy nga và rực rỡ, nổi tiếng với nhiều công trình kiến trúc cổ xưa, là cái nôi của nghệ thuật và văn hoá lãng mạn.</p>
-                            <div class="map text-center"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d168085.02542843315!2d2.372169!3d48.832872!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2zUGEgcmksIFBow6Fw!5e0!3m2!1svi!2sus!4v1716988843729!5m2!1svi!2sus" width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-                            <p>Đây cũng là thành phố có lịch sử hình thành vô cùng phong phú, không chỉ thu hút được những người đam mê khảo cổ và kiến trúc xưa, mà còn là địa điểm được nhiều Du Khách chú ý. Nhắc đến Paris, chắc chắn người ta sẽ nhớ đến những công trình tiêu biểu mang đậm dấu ấn thời đại như bảo tàng Louvre, Basilique du Sacré-Cœur, Boulevard Montmartre hay Panthéon…</p>
-
-                            <p>Thủ đô Paris cũng được mệnh danh là trung tâm thời trang thế giới, cái nôi của nhiều thương hiệu nổi tiếng trên toàn cầu như Dior, Hermes hay Lanvin… Bên cạnh đó đến với Paris, chính là đặt chân đến xứ sở của tình yêu thương và sự lãng mạn, nơi con người ta chìm đắm vào những bản nhạc du dương mang đậm nét văn hoá Pháp. Paris cũng là địa điểm diễn ra nhiều sự kiện nổi tiếng trong năm, với lối sống xa hoa lộng lẫy luôn là điểm đến của nhiều minh tinh hàng đầu.</p>
-                            <h2 class="text-danger">2. Những địa điểm tham quan nổi tiếng tại Paris</h2>
-                            <p>Paris còn được mệnh danh là “Kinh đô ánh sáng” của thế giới, cái nôi của kiến trúc cổ xưa, thành phố Paris hiện lên đầy nguy nga và tráng lệ với các công trình kiến trúc nổi tiếng. Nếu Du Khách có dịp ghé thăm nơi này, đừng bỏ qua những địa điểm tham quan sau đây:</p>
-                            <h3 class="text-warning">2.1. Tháp Eiffel</h3>
-                            <p>Mỗi lần nhắc đến phố cổ Hội An, chắc chắn không thể bỏ qua công trình này. Chùa Cầu hay còn gọi là Chùa Cầu Nhật Bản, là công trình kiến trúc độc đáo, tiêu biểu ở đây. Ngôi chùa được xây chính bởi các thương gia Nhật Bản khi đến đây buôn bán vào giữa thế kỷ 16. Do ảnh hưởng của thiên tai, dịch họa, chùa đã trải qua nhiều lần trùng tu nên dần mất đi các chi tiết kiến trúc Nhật Bản mà thay vào đó là những nét kiến trúc Việt – Trung.</p>
-                            <div class="col-sm-8 mb-4 offset-sm-2">
-                                <figure class="figure text-center">
-                                    <img src="../image/imgTourList/Paris/tower.jpg" class="figure-img img-fluid rounded" alt="Mô tả ảnh">
-                                    <figcaption class="figure-caption fs-6"><i>Tháp Eiffel được mệnh danh là biểu tượng hàng đầu của Pháp.</i></figcaption>
-                                </figure>
-                            </div>
-
-                            <h3 class="text-warning">2.2. Sông Seine</h3>
-                            <p>Không ngoa khi nói dòng sông Seine hiền hoà chính là biểu tượng của sự lãng mạn, là trái tim và linh hồn của thành phố tình yêu Paris. Dọc theo sông Seine, Du Khách có thể chiêm ngưỡng được rất nhiều công trình kiến trúc lộng lẫy. Trải nghiệm ngồi thuyền thơ mộng, tuyệt đẹp trong không gian thoáng đãng và lộng gió của sông Seine chắc chắn sẽ là một chuyến đi khiến Du Khách không thể nào quên.</p> 
-                            <div class="col-sm-8 mb-4 offset-sm-2">
-                                <figure class="figure text-center">
-                                    <img src="../image/imgTourList/Paris/seine.jpg" class="figure-img img-fluid rounded" alt="Mô tả ảnh">
-                                    <figcaption class="figure-caption fs-6"><i>Sông Seine hiền hoà và lãng mạn.</i></figcaption>
-                                </figure>
-                            </div>
-
-
-                            <h3 class="text-warning">2.3. Nhà thờ Đức Bà Paris</h3>
-                            <p>Hiện lên đầy nguy nga và tráng lệ trong tác phẩm “Thằng Gù Nhà Thờ Đức Bà”, Nhà thờ Đức Bà Paris với kiến trúc Gothic cổ xưa đã gây ấn tượng mạnh mẽ với các Du Khách ngay từ lần đầu ghé thăm. Được mệnh danh là kiến trúc tôn giáo độc đáo nhất trên thế giới, tọa lạc ngay bên cạnh dòng sông Seine, đây là một trong những địa điểm thu hút được nhiều Du Khách ghé đến nhất trong năm. </p> 
-                            <div class="col-sm-8 mb-4 offset-sm-2">
-                                <figure class="figure text-center">
-                                    <img src="../image/imgTourList/Paris/nhathoducba.jpg" class="figure-img img-fluid rounded" alt="Mô tả ảnh">
-                                    <figcaption class="figure-caption fs-6"><i>Nhà thờ Đức Bà Paris.</i></figcaption>
-                                </figure>
-                            </div>
-
-                            <h3 class="text-warning">2.4. Lăng mộ Napoleon (điện Invalides)</h3>
-                            <p>Điện Invalides là nơi yên nghỉ của vị vua vĩ đại nhất nước Pháp với nhiều chiến công vang dội – Napoleon đại đế. Không chỉ có kiến trúc độc đáo, mang đậm nét văn hoá Pháp cổ xưa, nơi đây còn là bảo tàng lưu giữ rất nhiều loại vũ khí và hiện vật quan trọng đại diện cho lịch sử của Pháp.</p> 
-                            <p>Phía trước lối vào lăng mộ có bãi cỏ Esplanade des Invalides trải dài đến hơn 500m. Tại đây thường xuyên diễn ra các hoạt động cắm trại và tắm nắng thú vị mà Du Khách không nên bỏ qua. </p>
-                            <div class="col-sm-8 mb-4 offset-sm-2">
-                                <figure class="figure text-center">
-                                    <img src="../image/imgTourList/Paris/langmo.jpg" class="figure-img img-fluid rounded" alt="Mô tả ảnh">
-                                    <figcaption class="figure-caption fs-6"><i>Lăng mộ Napoleon nguy nga tráng lệ.</i></figcaption>
-                                </figure>
-                            </div>
-
-                            <h3 class="text-warning">2.5. Khải Hoàn Môn</h3>
-                            <p>
-                                Là điểm đến cuối cùng của đại lộ Champs-Elysées, toạ lạc giữa quảng trường Étoile, Khải Hoàn Môn chính là biểu tượng của những chiến công vang dội nhất. Công trình được xây dựng vào năm 1806 dưới thời của Napoleon 1 để tôn vinh chiến thắng lẫy lừng của quân đội, với thiết kế vòng cung độc đáo được tạo ra bởi kiến trúc sư Jean-Francois Chalgrin. Hiện nay, Khải Hoàn Môn chính là trung tâm của sự sầm uất, nơi diễn ra nhiều sự kiện và lễ hội quan trọng trong năm. </p>
-                            <div class="col-sm-8 mb-4 offset-sm-2">
-                                <figure class="figure text-center">
-                                    <img src="../image/imgTourList/Paris/khaihoanmon.jpg" class="figure-img img-fluid rounded" alt="Mô tả ảnh">
-                                    <figcaption class="figure-caption fs-6"><i>Khải Hoàn Môn – chứng nhân lịch sử của nước Pháp.</i></figcaption>
-                                </figure>
-                            </div>
-
-                            <p class="text-danger">Trên đây là một số địa điểm du lịch nổi tiếng khi đến thành phố Paris. Nếu Du Khách cần biết thêm thông tin, hãy liên hệ với TravelTour để được tư vấn về Tour du lịch hàng đầu Châu Âu cao cấp. </p>
-                            
-                        <div class="comment-form-wrap pt-5">
-                            <h3 class="mb-5">Leave a comment</h3>
-                            <form action="#" class="p-5 bg-light">
-                                <div class="form-group">
-                                    <label for="name">Name *</label>
-                                    <input type="text" class="form-control" id="name" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">Email *</label>
-                                    <input type="email" class="form-control" id="email" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="website">Website</label>
-                                    <input type="url" class="form-control" id="website" />
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="message">Message</label>
-                                    <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <input type="submit" value="Post Comment" class="btn btn-primary" />
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+        <div class="container-fluid gx-0">
+            <div class="copyright d-flex align-items-center justify-content-center">
+                <p class="fs-5 mt-5">&copy;Copyright TravelTour.com . All Rights Reserved</p>
             </div>
-        </section>
-        <!-- footer -->
-        <footer class="footer">
-            <div class="container footer-container">
-                <div class="row">
-                    <div class="col-sm-12 col-lg-4 col-md-6">
-                        <h3 class="heading-logo footer-logo"><span>Travel</span>Tour</h3>
-                        <p class="footer-para">
-                            Giấy phép kinh doanh theo số: 0301171827 (Đăng ký lần đầu ngày 13/01/2005) do Sở Kế hoạch và Đầu tư TPHCM cấp. <br />
-                            Mã số thuế: 0301171827 Số giấy phép kinh doanh lữ hành Quốc tế: 79-089/2020/TCDL-GP LHQT
-                        </p>
-                        <h5 class="heading-sm-footer">FOLLOW US</h5>
-                        <div class="social-links-footer">
-                            <a href=""> <i class="fa-brands fa-facebook icon-social-footer"></i></a>
-                            <a href=""> <i class="fa-brands fa-instagram icon-social-footer"></i></a>
-                            <a href=""> <i class="fa-brands fa-twitter icon-social-footer"></i></a>
-                            <a href=""> <i class="fa-brands fa-vimeo-v icon-social-footer"></i></a>
-                            <a href=""> <i class="fa-brands fa-linkedin-in icon-social-footer"></i></a>
-                        </div>
-                    </div>
+        </div>
+    </footer>
+    <!-- footer -->
 
-                    <div class="col-sm-12 col-lg-4 col-md-6">
-                        <div class="pages-footer">
-                            <h3 class="heading-pages">Pages Links</h3>
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link footer-links" aria-current="page" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link footer-links" aria-current="page" href="TourList.html">Tour</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link footer-links" href="blog.html">Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link footer-links" href="contact.html">Contact us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link footer-links" href="about.html">About us</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+    <script src="../js/javascript.js"></script>
+</body>
 
-                    <div class="col-sm-12 col-lg-4 col-md-6">
-                        <h3 class="heading-pages">Contact us</h3>
-                        <p class="contact-footer d-flex flex-column">
-                            <span class="text-contact"> <i class="fa-solid fa-location-dot contact-icon-footer"></i>Số 126 Nguyễn Thiện Thành, khóm 4, phường 5, Thành phố Trà Vinh, Việt Nam </span>
-                            <span class="text-contact"> <i class="fa-solid fa-envelope contact-icon-footer"></i>Traveltourcontact@gmail.com </span>
-                            <span class="text-contact"> <i class="fa-solid fa-phone contact-icon-footer"></i>+021-1234 5678 </span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container-fluid gx-0">
-                <div class="copyright d-flex align-items-center justify-content-center">
-                    <p class="fs-5 mt-5">&copy;Copyright TravelTour.com . All Rights Reserved</p>
-                </div>
-            </div>
-        </footer>
-        <!-- footer -->
-
-        <script src="../js/javascript.js"></script>
-    </body>
 </html>
