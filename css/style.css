@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* list-style: none !important; */
+    list-style: none !important;
     text-decoration: none !important;
     font-family: 'SVN-Gilroy', sans-serif;
 }
@@ -132,12 +132,27 @@ body {
     padding-left: 15%;
 }
 
+.text-content-home h3 {
+    font-size: 50px;
+}
+.text-content-home h1 {
+    font-size: 70px;
+}
+.text-content-home h5 {
+    font-size: 30px;
+}
+
+.text-content-home a {
+    font-size: 20px;
+    line-height: 30px;
+}
+
 .img-1 {
     background-image: linear-gradient(#0000004d, #0000004d), url('../image/shutterstock_245507692-600x700.jpg');
 }
 
 .img-2 {
-    background-image: linear-gradient(#0000004d, #0000004d), url('../image/shutterstock_178807262-600x700.jpg');
+    background-image: linear-gradient(#0000004d, #0000004d), url('../image/imgTourList/Switzerland.jpg');
 }
 
 .img-3 {
@@ -186,7 +201,7 @@ body {
     }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1400px) {
     .text-content-home h3 {
         font-size: 60px;
     }
