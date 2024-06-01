@@ -78,3 +78,6 @@ body {
 strong {
     font-weight: bold;
 }
+.text-danger{
+    text-transform: uppercase;
+}
