@@ -244,7 +244,7 @@ body {
 }
 
 .main-txt h3 {
-    padding-top: 110px;
+    padding-top: 0px;
     padding-bottom: 20px;
     font-weight: 600;
     color: var(--title-section-color);
@@ -287,9 +287,7 @@ body {
     font-size: 20px;
 }
 .packages .card .card-body a {
-    padding: 10px;
     text-decoration: none;
-    background: var(--title-section-color);
     color: var(---color1-heading);
     border-radius: 5px;
 }
