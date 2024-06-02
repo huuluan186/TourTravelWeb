@@ -148,15 +148,15 @@ body {
 }
 
 .img-1 {
-    background-image: linear-gradient(#0000004d, #0000004d), url('../image/shutterstock_245507692-600x700.jpg');
+    background-image: linear-gradient(#0000004d, #0000004d), url('../image/Bg-3.jpg');
 }
 
 .img-2 {
-    background-image: linear-gradient(#0000004d, #0000004d), url('../image/imgTourList/Switzerland.jpg');
+    background-image: linear-gradient(#0000004d, #0000004d), url('../image/ThuySi/bg-swi.jpg');
 }
 
 .img-3 {
-    background-image: linear-gradient(#0000004d, #0000004d), url('../image/beautiful-landscape-forest-view-from-faraway-4k_1540140117-768x432.jpg.webp');
+    background-image: linear-gradient(#0000004d, #0000004d), url('../image/bg-2.jpg');
 }
 
 .slider-icon {
